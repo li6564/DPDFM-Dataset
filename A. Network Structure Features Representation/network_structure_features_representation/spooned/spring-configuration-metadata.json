@@ -1,0 +1,93 @@
+{
+  "groups": [
+    {
+      "name": "aliyun",
+      "type": "cn.meteor.beyondclouds.config.properties.AliyunProperties",
+      "sourceType": "cn.meteor.beyondclouds.config.properties.AliyunProperties"
+    },
+    {
+      "name": "beyondclouds",
+      "type": "cn.meteor.beyondclouds.config.properties.BeyondCloudsProperties",
+      "sourceType": "cn.meteor.beyondclouds.config.properties.BeyondCloudsProperties"
+    },
+    {
+      "name": "beyondclouds.auth",
+      "type": "cn.meteor.beyondclouds.config.properties.BeyondCloudsProperties$AuthProperties",
+      "sourceType": "cn.meteor.beyondclouds.config.properties.BeyondCloudsProperties"
+    },
+    {
+      "name": "beyondclouds.auth.qq",
+      "type": "cn.meteor.beyondclouds.config.properties.BeyondCloudsProperties$QQAuthProperties",
+      "sourceType": "cn.meteor.beyondclouds.config.properties.BeyondCloudsProperties$AuthProperties"
+    },
+    {
+      "name": "beyondclouds.kafka.topics",
+      "type": "cn.meteor.beyondclouds.config.properties.BeyondCloudsKafkaTopicProperties",
+      "sourceType": "cn.meteor.beyondclouds.config.properties.BeyondCloudsKafkaTopicProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "aliyun.access-key-id",
+      "type": "java.lang.String",
+      "sourceType": "cn.meteor.beyondclouds.config.properties.AliyunProperties"
+    },
+    {
+      "name": "aliyun.access-key-secret",
+      "type": "java.lang.String",
+      "sourceType": "cn.meteor.beyondclouds.config.properties.AliyunProperties"
+    },
+    {
+      "name": "aliyun.oss",
+      "type": "cn.meteor.beyondclouds.config.properties.OssProperties",
+      "sourceType": "cn.meteor.beyondclouds.config.properties.AliyunProperties"
+    },
+    {
+      "name": "aliyun.sms",
+      "type": "cn.meteor.beyondclouds.config.properties.SmsProperties",
+      "sourceType": "cn.meteor.beyondclouds.config.properties.AliyunProperties"
+    },
+    {
+      "name": "beyondclouds.auth.qq.client-id",
+      "type": "java.lang.String",
+      "sourceType": "cn.meteor.beyondclouds.config.properties.BeyondCloudsProperties$QQAuthProperties"
+    },
+    {
+      "name": "beyondclouds.auth.qq.client-secret",
+      "type": "java.lang.String",
+      "sourceType": "cn.meteor.beyondclouds.config.properties.BeyondCloudsProperties$QQAuthProperties"
+    },
+    {
+      "name": "beyondclouds.auth.qq.redirect-uri",
+      "type": "java.lang.String",
+      "sourceType": "cn.meteor.beyondclouds.config.properties.BeyondCloudsProperties$QQAuthProperties"
+    },
+    {
+      "name": "beyondclouds.debug",
+      "type": "java.lang.Boolean",
+      "description": "debug模式开关",
+      "sourceType": "cn.meteor.beyondclouds.config.properties.BeyondCloudsProperties"
+    },
+    {
+      "name": "beyondclouds.global-prevent-duplicate",
+      "type": "java.lang.Boolean",
+      "sourceType": "cn.meteor.beyondclouds.config.properties.BeyondCloudsProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "beyondclouds.kafka.topics.data-item-change",
+      "type": "java.lang.String",
+      "description": "数据条目更新",
+      "sourceType": "cn.meteor.beyondclouds.config.properties.BeyondCloudsKafkaTopicProperties",
+      "defaultValue": "topic.beyondclouds.dataitem.change"
+    },
+    {
+      "name": "beyondclouds.kafka.topics.user-action",
+      "type": "java.lang.String",
+      "description": "用户相关操作",
+      "sourceType": "cn.meteor.beyondclouds.config.properties.BeyondCloudsKafkaTopicProperties",
+      "defaultValue": "topic.beyondclouds.useraction"
+    }
+  ],
+  "hints": []
+}

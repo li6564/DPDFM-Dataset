@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.meteor.beyondclouds.modules.question.mapper.QuestionMapper">
+
+    <resultMap id="blogWithTagsResultMap" type="cn.meteor.beyondclouds.modules.question.entity.Question">
+        <id property="questionId" column="question_id"/>
+        <result property="userId" column="user_id"/>
+        <result property="userNick" column="user_nick"/>
+        <result property="categoryId" column="category_id"/>
+        <result property="category" column="category"/>
+        <result property="questionTitle" column="question_title"/>
+        <result property="questionAbstract" column="question_abstract"/>
+        <result property="replyNumber" column="reply_number"/>
+        <result property="solved" column="solved"/>
+        <result property="viewNumber" column="view_number"/>
+        <result property="status" column="status"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+        <collection property="tags" ofType="cn.meteor.beyondclouds.modules.tag.entity.Tag" column="question_id" select="selectTags">
+        </collection>
+    </resultMap>
+
+    <select id="selectTags" resultType="cn.meteor.beyondclouds.modules.tag.entity.Tag">
+        select t.*
+        from tag t, question_tag qt
+        where qt.tag_id = t.tag_id
+        and qt.question_id = #{questionId}
+    </select>
+
+    <select id="selectPageWithTags" resultMap="blogWithTagsResultMap">
+        select
+        q.*
+        from question q
+        <if test="ew != null and ew.customSqlSegment != null">
+            ${ew.customSqlSegment}
+        </if>
+    </select>
+
+    <select id="listByIdsWithTags" resultMap="blogWithTagsResultMap">
+        select
+        q.*
+        from question q
+        where q.question_id in
+        <foreach collection="questionIds" item="questionId" index="index" open="(" close=")" separator=",">
+            #{questionId}
+        </foreach>
+        and q.status = 0
+    </select>
+</mapper>

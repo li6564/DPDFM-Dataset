@@ -1,0 +1,11 @@
+
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(æŸ°ƒûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ßõ÷·ûÿÿÿÿ
+]	java:S125"<This block of commented-out lines of code should be removed.(Óã“…ûÿÿÿÿ8¯Ø¡ƒ2
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µÇ«–ÿÿÿÿÿ
+V
+java:S1854!";Remove this useless assignment to local variable "service".(Ë¶¾¬ûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ëËô™úÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¹Îïçÿÿÿÿÿ
+G
+java:S1481!",Remove this unused "service" local variable.(Ë¶¾¬ûÿÿÿÿ

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.meteor.beyondclouds.modules.topic.mapper.TopicMapper">
+
+    <select id="searchTopics" resultType="cn.meteor.beyondclouds.modules.topic.entity.Topic">
+         select * from topic where topic_name like CONCAT('%',#{keywords},'%')
+    </select>
+
+    <select id="selectHotSearchPage" resultType="cn.meteor.beyondclouds.modules.topic.dto.TopicDTO">
+        SELECT t.*,
+        sd.degree `degree`
+        FROM topic t, search_degree  sd
+        WHERE t.topic_id = sd.item_id
+        AND sd.item_type = 'TOPIC'
+        AND t.status = 0
+        ORDER BY sd.degree DESC
+    </select>
+
+    <select id="searchPostInTopicWithConditions" resultType="cn.meteor.beyondclouds.modules.post.entity.Post">
+        SELECT *
+        FROM topic_reference tr inner join post p
+        on tr.referencer_id=p.post_id
+        <if test="ew != null and ew.customSqlSegment != null">
+            ${ew.customSqlSegment}
+        </if>
+    </select>
+
+    <select id="selectTopicContributeIdPage" resultType="java.lang.String">
+        SELECT user_id
+        FROM topic_reference tr
+        WHERE topic_id = #{topicId}
+        GROUP BY user_id
+        ORDER BY COUNT(user_id) DESC
+    </select>
+
+
+</mapper>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.meteor.beyondclouds.modules.blog.mapper.BlogMapper">
+
+    <resultMap id="blogWithTagsResultMap" type="cn.meteor.beyondclouds.modules.blog.entity.Blog">
+        <id property="blogId" column="blog_id"/>
+        <result property="userId" column="user_id"/>
+        <result property="userNick" column="user_nick"/>
+        <result property="categoryId" column="category_id"/>
+        <result property="category" column="category"/>
+        <result property="blogTitle" column="blog_title"/>
+        <result property="blogAbstract" column="blog_abstract"/>
+        <result property="cover" column="cover"/>
+        <result property="originLink" column="origin_link"/>
+        <result property="viewPrivileges" column="view_privileges"/>
+        <result property="allowComment" column="allow_comment"/>
+        <result property="allowForward" column="allow_forward"/>
+        <result property="commentNumber" column="comment_number"/>
+        <result property="viewNumber" column="view_number"/>
+        <result property="status" column="status"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+        <collection property="tags" ofType="cn.meteor.beyondclouds.modules.tag.entity.Tag" column="blog_id"  select="selectTags">
+        </collection>
+    </resultMap>
+
+    <select id="selectTags" resultType="cn.meteor.beyondclouds.modules.tag.entity.Tag">
+        select t.*
+        from tag t, blog_tag bt
+        where bt.tag_id = t.tag_id
+        and bt.blog_id = #{blogId}
+    </select>
+
+    <select id="selectPageWithTags" resultMap="blogWithTagsResultMap">
+        select
+        b.*
+        from blog b
+        <if test="ew != null and ew.customSqlSegment != null">
+            ${ew.customSqlSegment}
+        </if>
+    </select>
+
+
+    <select id="listByIdsWithTags" resultMap="blogWithTagsResultMap">
+        select
+        b.*
+        from blog b
+        where b.blog_id in
+        <foreach collection="blogIds" item="blogId" index="index" open="(" close=")" separator=",">
+            #{blogId}
+        </foreach>
+        and  b.status = 0
+    </select>
+
+    <select id="selectAllViewCount" resultType="java.lang.Long">
+        select sum(view_number)
+        from blog
+        where user_id = #{userId}
+        and status = 0
+    </select>
+
+
+</mapper>

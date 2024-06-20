@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.meteor.beyondclouds.modules.blog.mapper.BlogPraiseMapper">
+
+    <select id="selectPraisePage" resultType="cn.meteor.beyondclouds.modules.user.dto.PraiseUserDTO">
+        select
+        u.user_id,
+        u.nick_name,
+        u.user_avatar,
+        u.signature,
+        bp.create_time praise_time
+        from blog_praise bp, user u
+        where bp.user_id = u.user_id
+        and bp.target_id = #{targetId}
+        and bp.target_type = #{targetType}
+        order by bp.create_time desc
+    </select>
+</mapper>

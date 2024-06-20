@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.meteor.beyondclouds.modules.user.mapper.UserMapper">
+    <select id="selectHotBloggerPage" resultType="cn.meteor.beyondclouds.modules.user.dto.UserFollowDTO">
+        select
+        u.*,
+        u.nick_name user_nick,
+        us.followed_num `statistics.followed_num`,
+        us.fans_num `statistics.fans_num`,
+        us.blog_num `statistics.blog_num`,
+        us.blog_view_num `statistics.blog_view_num`,
+        us.project_num `statistics.project_num`,
+        us.post_num `statistics.post_num`,
+        us.question_num `statistics.question_num`,
+        us.question_reply_num `statistics.question_reply_num`,
+        us.reply_accepted_num `statistics.reply_accepted_num`,
+        us.visited_num `statistics.visited_num`
+        from `user` u, user_statistics us
+        where u.user_id = us.user_id
+        AND  us.blog_view_num > 0
+        order by us.blog_view_num desc
+    </select>
+
+    <select id="listByIdsWithStatistics" resultType="cn.meteor.beyondclouds.modules.user.dto.UserFollowDTO">
+         select
+        u.*,
+        u.nick_name user_nick,
+        us.followed_num `statistics.followed_num`,
+        us.fans_num `statistics.fans_num`,
+        us.blog_num `statistics.blog_num`,
+        us.blog_view_num `statistics.blog_view_num`,
+        us.project_num `statistics.project_num`,
+        us.post_num `statistics.post_num`,
+        us.question_num `statistics.question_num`,
+        us.question_reply_num `statistics.question_reply_num`,
+        us.reply_accepted_num `statistics.reply_accepted_num`,
+        us.visited_num `statistics.visited_num`
+        from `user` u, user_statistics us
+        where u.user_id = us.user_id
+        and u.user_id
+        in
+        <foreach collection="userIds" item="userId" index="index" open="(" close=")" separator=",">
+            #{userId}
+        </foreach>
+        order by us.blog_view_num desc
+    </select>
+
+    <select id="selectActivesUserPage" resultType="cn.meteor.beyondclouds.modules.user.dto.UserFollowDTO">
+        SELECT
+        u.*,
+        u.nick_name user_nick,
+        us.followed_num `statistics.followed_num`,
+        us.fans_num `statistics.fans_num`,
+        us.blog_num `statistics.blog_num`,
+        us.blog_view_num `statistics.blog_view_num`,
+        us.project_num `statistics.project_num`,
+        us.post_num `statistics.post_num`,
+        us.question_num `statistics.question_num`,
+        us.question_reply_num `statistics.question_reply_num`,
+        us.reply_accepted_num `statistics.reply_accepted_num`,
+        us.visited_num `statistics.visited_num`
+        FROM `user` u, user_statistics us
+        WHERE u.user_id = us.user_id
+        ORDER BY blog_num + project_num + post_num * 0.1 + blog_view_num DESC
+    </select>
+
+
+    <select id="selectEliteUserPage" resultType="cn.meteor.beyondclouds.modules.user.dto.UserFollowDTO">
+        SELECT
+        u.*,
+        u.nick_name user_nick,
+        us.followed_num `statistics.followed_num`,
+        us.fans_num `statistics.fans_num`,
+        us.blog_num `statistics.blog_num`,
+        us.blog_view_num `statistics.blog_view_num`,
+        us.project_num `statistics.project_num`,
+        us.post_num `statistics.post_num`,
+        us.question_num `statistics.question_num`,
+        us.question_reply_num `statistics.question_reply_num`,
+        us.reply_accepted_num `statistics.reply_accepted_num`,
+        us.visited_num `statistics.visited_num`
+        FROM `user` u, user_statistics us
+        WHERE u.user_id = us.user_id
+        ORDER BY blog_num + project_num + post_num + blog_view_num DESC
+    </select>
+
+    <select id="selectHotReplierPage" resultType="cn.meteor.beyondclouds.modules.user.dto.UserFollowDTO">
+        select
+        u.*,
+        u.nick_name user_nick,
+        us.followed_num `statistics.followed_num`,
+        us.fans_num `statistics.fans_num`,
+        us.blog_num `statistics.blog_num`,
+        us.blog_view_num `statistics.blog_view_num`,
+        us.project_num `statistics.project_num`,
+        us.post_num `statistics.post_num`,
+        us.question_num `statistics.question_num`,
+        us.question_reply_num `statistics.question_reply_num`,
+        us.reply_accepted_num `statistics.reply_accepted_num`,
+        us.visited_num `statistics.visited_num`
+        from `user` u, user_statistics us
+        where u.user_id = us.user_id
+        AND  us.question_reply_num > 0
+        order by us.reply_accepted_num desc, us.question_reply_num desc
+    </select>
+</mapper>
+

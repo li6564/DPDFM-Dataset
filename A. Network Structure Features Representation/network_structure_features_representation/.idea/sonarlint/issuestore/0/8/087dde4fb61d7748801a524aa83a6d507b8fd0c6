@@ -1,0 +1,25 @@
+
+J
+java:S3740 "/Provide the parametrized type for this generic.(äªêåûÿÿÿÿ
+E
+java:S3740$"/Provide the parametrized type for this generic.(ÛÉ˜È
+M
+java:S1068"+Remove this unused "modifer" private field.(ñ¯ıÿÿÿÿ8ñÿÓ ƒ2
+<
+java:S14528"&Remove usage of generic wildcard type.(é·ñÈ
+U
+java:S1068"3Remove this unused "isDefaultMethod" private field.(¬çâ’şÿÿÿÿ8 ÖÓ ƒ2
+P
+java:S1068".Remove this unused "isImplicit" private field.(É¶”şÿÿÿÿ8 ÖÓ ƒ2
+x
+java:S1450"VRemove the "modifer" field and declare it as a local variable in the relevant methods.(ñ¯ıÿÿÿÿ8ñÿÓ ƒ2
+E
+java:S3740"/Provide the parametrized type for this generic.(‚‚‘Ş
+{
+java:S1450"YRemove the "isImplicit" field and declare it as a local variable in the relevant methods.(É¶”şÿÿÿÿ8 ÖÓ ƒ2
+€
+java:S1450"^Remove the "isDefaultMethod" field and declare it as a local variable in the relevant methods.(¬çâ’şÿÿÿÿ8 ÖÓ ƒ2
+y
+java:S1450"WRemove the "isShadow" field and declare it as a local variable in the relevant methods.(ğ¶Äîûÿÿÿÿ8 ÖÓ ƒ2
+N
+java:S1068",Remove this unused "isShadow" private field.(ğ¶Äîûÿÿÿÿ8 ÖÓ ƒ2

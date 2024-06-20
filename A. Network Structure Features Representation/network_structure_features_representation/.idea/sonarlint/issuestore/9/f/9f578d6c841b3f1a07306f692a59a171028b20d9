@@ -1,0 +1,33 @@
+
+{
+java:S1450%"^Remove the "isParameterized" field and declare it as a local variable in the relevant methods.(ûìáª8Ş·Ñ ƒ2
+e	java:S117`"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùöÒh
+t
+java:S1450/"WRemove the "isNative" field and declare it as a local variable in the relevant methods.(„à„ç8íßÑ ƒ2
+<
+java:S1452\"&Remove usage of generic wildcard type.(¬ËìŠ
+P
+java:S1068%"3Remove this unused "isParameterized" private field.(ûìáª8Ş·Ñ ƒ2
+b	java:S100`"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùöÒh
+|
+java:S1450'"ZRemove the "isPrimitive" field and declare it as a local variable in the relevant methods.(´Ÿæ¯ÿÿÿÿÿ8Ş·Ñ ƒ2
+<
+java:S1452d"&Remove usage of generic wildcard type.(»Æ´†
+c	java:S100\"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬ËìŠ
+<
+java:S1452l"&Remove usage of generic wildcard type.(ÓÖˆ×
+p	java:S116"[Rename this field "super_interfaces" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦£ÄÇ
+h	java:S100h"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ­ÆÔÿÿÿÿÿ
+H
+java:S1068)"+Remove this unused "isArray" private field.(Ö‰Õ§8Ş·Ñ ƒ2
+p	java:S116"VRename this field "super_class" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›Š½‡üÿÿÿÿ
+s
+java:S1450)"VRemove the "isArray" field and declare it as a local variable in the relevant methods.(Ö‰Õ§8Ş·Ñ ƒ2
+£
+java:S11861"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(µæØÏùÿÿÿÿ8ç—Ò ƒ2
+k	java:S117h"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ­ÆÔÿÿÿÿÿ
+c	java:S100d"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»Æ´†
+Q
+java:S1068'"/Remove this unused "isPrimitive" private field.(´Ÿæ¯ÿÿÿÿÿ8Ş·Ñ ƒ2
+I
+java:S1068/",Remove this unused "isNative" private field.(„à„ç8íßÑ ƒ2

@@ -1,0 +1,1645 @@
+Kind,Name,AvgCyclomatic,AvgCyclomaticModified,AvgCyclomaticStrict,AvgEssential,CountDeclClass,CountDeclExecutableUnit,MaxCyclomatic,MaxCyclomaticStrict,MaxCyclomaticModified,MaxEssential,MaxNesting,SumCyclomatic,SumEssential
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+Anonymous Class,CH.ifa.draw.applet.DrawApplet.createButtons.(Anon_1),2,2,2,1,,,2,2,2,1,1,2,1
+,,,,,,,,,,,,,,
+Anonymous Class,CH.ifa.draw.applet.DrawApplet.createButtons.(Anon_2),1,1,1,1,,,1,1,1,1,0,1,1
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+Public Method,CH.ifa.draw.applet.DrawApplet.init,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.applet.DrawApplet.initDrawing,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.applet.DrawApplet.loadDrawing,,,,,,,,,,,1,3,1
+Public Method,CH.ifa.draw.applet.DrawApplet.paletteUserOver,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.applet.DrawApplet.paletteUserSelected,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.applet.DrawApplet.readDrawing,,,,,,,,,,,1,3,1
+Private Method,CH.ifa.draw.applet.DrawApplet.readFromObjectInput,,,,,,,,,,,1,3,1
+Private Method,CH.ifa.draw.applet.DrawApplet.readFromStorableInput,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.applet.DrawApplet.selectionChanged,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.applet.DrawApplet.setBufferedDisplayUpdate,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.applet.DrawApplet.setSelected,,,,,,,,,,,1,3,1
+Protected Method,CH.ifa.draw.applet.DrawApplet.setSimpleDisplayUpdate,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.applet.DrawApplet.setTool,,,,,,,,,,,1,3,1
+Private Method,CH.ifa.draw.applet.DrawApplet.setupAttributes,,,,,,,,,,,1,4,1
+Protected Method,CH.ifa.draw.applet.DrawApplet.showHelp,,,,,,,,,,,1,2,1
+Private Method,CH.ifa.draw.applet.DrawApplet.startSleeper,,,,,,,,,,,1,2,1
+Private Method,CH.ifa.draw.applet.DrawApplet.stopSleeper,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.applet.DrawApplet.tool,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.applet.DrawApplet.toolDone,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.applet.DrawApplet.view,,,,,,,,,,,0,1,1
+Class,CH.ifa.draw.applet.SleeperThread,2,2,2,1,,,3,3,3,1,2,4,2
+Constructor,CH.ifa.draw.applet.SleeperThread.SleeperThread,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.applet.SleeperThread.run,,,,,,,,,,,2,3,1
+Package,CH.ifa.draw.application,1,1,1,1,10,,3,3,3,3,2,88,63
+Public Class,CH.ifa.draw.application.DrawApplication,1,1,1,1,,,3,3,3,3,2,79,54
+Public Constructor,CH.ifa.draw.application.DrawApplication.DrawApplication,,,,,,,,,,,0,1,1
+Public Constructor,CH.ifa.draw.application.DrawApplication.DrawApplication,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.application.DrawApplication.addListeners,,,,,,,,,,,0,1,1
+Anonymous Class,CH.ifa.draw.application.DrawApplication.addListeners.(Anon_1),1,1,1,1,,,1,1,1,1,0,1,1
+Public Method,CH.ifa.draw.application.DrawApplication.addListeners.(Anon_1).windowClosing,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.application.DrawApplication.createAlignmentMenu,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.application.DrawApplication.createArrowMenu,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.application.DrawApplication.createAttributesMenu,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.application.DrawApplication.createColorMenu,,,,,,,,,,,1,2,1
+Protected Method,CH.ifa.draw.application.DrawApplication.createContents,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.application.DrawApplication.createDebugMenu,,,,,,,,,,,0,1,1
+Anonymous Class,CH.ifa.draw.application.DrawApplication.createDebugMenu.(Anon_8),1,1,1,1,,,1,1,1,1,0,1,1
+Public Method,CH.ifa.draw.application.DrawApplication.createDebugMenu.(Anon_8).actionPerformed,,,,,,,,,,,0,1,1
+Anonymous Class,CH.ifa.draw.application.DrawApplication.createDebugMenu.(Anon_9),1,1,1,1,,,1,1,1,1,0,1,1
+Public Method,CH.ifa.draw.application.DrawApplication.createDebugMenu.(Anon_9).actionPerformed,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.application.DrawApplication.createDrawing,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.application.DrawApplication.createDrawingView,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.application.DrawApplication.createEditMenu,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.application.DrawApplication.createFileMenu,,,,,,,,,,,0,1,1
+Anonymous Class,CH.ifa.draw.application.DrawApplication.createFileMenu.(Anon_2),1,1,1,1,,,1,1,1,1,0,1,1
+Public Method,CH.ifa.draw.application.DrawApplication.createFileMenu.(Anon_2).actionPerformed,,,,,,,,,,,0,1,1
+Anonymous Class,CH.ifa.draw.application.DrawApplication.createFileMenu.(Anon_3),1,1,1,1,,,1,1,1,1,0,1,1
+Public Method,CH.ifa.draw.application.DrawApplication.createFileMenu.(Anon_3).actionPerformed,,,,,,,,,,,0,1,1
+Anonymous Class,CH.ifa.draw.application.DrawApplication.createFileMenu.(Anon_4),1,1,1,1,,,1,1,1,1,0,1,1
+Public Method,CH.ifa.draw.application.DrawApplication.createFileMenu.(Anon_4).actionPerformed,,,,,,,,,,,0,1,1
+Anonymous Class,CH.ifa.draw.application.DrawApplication.createFileMenu.(Anon_5),1,1,1,1,,,1,1,1,1,0,1,1
+Public Method,CH.ifa.draw.application.DrawApplication.createFileMenu.(Anon_5).actionPerformed,,,,,,,,,,,0,1,1
+Anonymous Class,CH.ifa.draw.application.DrawApplication.createFileMenu.(Anon_6),1,1,1,1,,,1,1,1,1,0,1,1
+Public Method,CH.ifa.draw.application.DrawApplication.createFileMenu.(Anon_6).actionPerformed,,,,,,,,,,,0,1,1
+Anonymous Class,CH.ifa.draw.application.DrawApplication.createFileMenu.(Anon_7),1,1,1,1,,,1,1,1,1,0,1,1
+Public Method,CH.ifa.draw.application.DrawApplication.createFileMenu.(Anon_7).actionPerformed,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.application.DrawApplication.createFontMenu,,,,,,,,,,,1,2,1
+Protected Method,CH.ifa.draw.application.DrawApplication.createFontSizeMenu,,,,,,,,,,,1,2,1
+Protected Method,CH.ifa.draw.application.DrawApplication.createFontStyleMenu,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.application.DrawApplication.createMenus,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.application.DrawApplication.createSelectionTool,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.application.DrawApplication.createStatusLine,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.application.DrawApplication.createToolButton,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.application.DrawApplication.createToolPalette,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.application.DrawApplication.createTools,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.application.DrawApplication.defaultSize,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.application.DrawApplication.destroy,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.application.DrawApplication.drawing,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.application.DrawApplication.exit,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.application.DrawApplication.getDrawingViewSize,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.application.DrawApplication.getSavePath,,,,,,,,,,,1,2,1
+Private Method,CH.ifa.draw.application.DrawApplication.guessType,,,,,,,,,,,1,3,3
+File,CH.ifa.draw.application.DrawApplication.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Private Method,CH.ifa.draw.application.DrawApplication.initDrawing,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.application.DrawApplication.loadDrawing,,,,,,,,,,,1,3,1
+Public Method,CH.ifa.draw.application.DrawApplication.open,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.application.DrawApplication.paletteUserOver,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.application.DrawApplication.paletteUserSelected,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.application.DrawApplication.print,,,,,,,,,,,2,3,1
+Public Method,CH.ifa.draw.application.DrawApplication.promptNew,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.application.DrawApplication.promptOpen,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.application.DrawApplication.promptSaveAs,,,,,,,,,,,2,3,1
+Public Method,CH.ifa.draw.application.DrawApplication.promptSaveAsSerialized,,,,,,,,,,,2,3,1
+Private Method,CH.ifa.draw.application.DrawApplication.readFromObjectInput,,,,,,,,,,,1,3,1
+Private Method,CH.ifa.draw.application.DrawApplication.readFromStorableInput,,,,,,,,,,,1,2,1
+Private Method,CH.ifa.draw.application.DrawApplication.saveAsObjectOutput,,,,,,,,,,,1,2,1
+Private Method,CH.ifa.draw.application.DrawApplication.saveAsStorableOutput,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.application.DrawApplication.selectionChanged,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.application.DrawApplication.setDrawing,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.application.DrawApplication.setSelected,,,,,,,,,,,1,3,1
+Private Method,CH.ifa.draw.application.DrawApplication.setTool,,,,,,,,,,,1,3,1
+Public Method,CH.ifa.draw.application.DrawApplication.showStatus,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.application.DrawApplication.stripTrailingAsterisks,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.application.DrawApplication.tool,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.application.DrawApplication.toolDone,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.application.DrawApplication.view,,,,,,,,,,,0,1,1
+Package,CH.ifa.draw.contrib,1,1,1,1,9,,9,9,6,3,4,149,90
+Public Class,CH.ifa.draw.contrib.ChopPolygonConnector,1,1,1,1,,,1,1,1,1,0,3,3
+Public Constructor,CH.ifa.draw.contrib.ChopPolygonConnector.ChopPolygonConnector,,,,,,,,,,,0,1,1
+Public Constructor,CH.ifa.draw.contrib.ChopPolygonConnector.ChopPolygonConnector,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.contrib.ChopPolygonConnector.chop,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.contrib.ChopPolygonConnector.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Class,CH.ifa.draw.contrib.DiamondFigure,1,1,1,1,,,1,1,1,1,0,6,6
+Public Constructor,CH.ifa.draw.contrib.DiamondFigure.DiamondFigure,,,,,,,,,,,0,1,1
+Public Constructor,CH.ifa.draw.contrib.DiamondFigure.DiamondFigure,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.contrib.DiamondFigure.connectionInsets,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.contrib.DiamondFigure.containsPoint,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.contrib.DiamondFigure.draw,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.contrib.DiamondFigure.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Protected Method,CH.ifa.draw.contrib.DiamondFigure.polygon,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.contrib.PolygonFigure,1,1,2,1,,,6,7,6,3,4,67,36
+Public Constructor,CH.ifa.draw.contrib.PolygonFigure.PolygonFigure,,,,,,,,,,,0,1,1
+Public Constructor,CH.ifa.draw.contrib.PolygonFigure.PolygonFigure,,,,,,,,,,,0,1,1
+Public Constructor,CH.ifa.draw.contrib.PolygonFigure.PolygonFigure,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.contrib.PolygonFigure.addPoint,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.contrib.PolygonFigure.basicDisplayBox,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.contrib.PolygonFigure.basicMoveBy,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.contrib.PolygonFigure.bounds,,,,,,,,,,,2,6,1
+Public Method,CH.ifa.draw.contrib.PolygonFigure.center,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.contrib.PolygonFigure.center,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.contrib.PolygonFigure.chop,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.contrib.PolygonFigure.chop,,,,,,,,,,,3,6,1
+Public Method,CH.ifa.draw.contrib.PolygonFigure.connectorAt,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.contrib.PolygonFigure.containsPoint,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.contrib.PolygonFigure.displayBox,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.contrib.PolygonFigure.distanceFromLine,,,,,,,,,,,1,3,3
+Public Method,CH.ifa.draw.contrib.PolygonFigure.drawBackground,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.contrib.PolygonFigure.drawFrame,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.contrib.PolygonFigure.findSegment,,,,,,,,,,,2,3,1
+Public Method,CH.ifa.draw.contrib.PolygonFigure.getPolygon,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.contrib.PolygonFigure.handles,,,,,,,,,,,1,2,1
+File,CH.ifa.draw.contrib.PolygonFigure.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.contrib.PolygonFigure.insertPointAt,,,,,,,,,,,1,3,1
+Public Method,CH.ifa.draw.contrib.PolygonFigure.isEmpty,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.contrib.PolygonFigure.locator,,,,,,,,,,,0,1,1
+Anonymous Class,CH.ifa.draw.contrib.PolygonFigure.locator.(Anon_1),2,2,2,1,,,2,2,2,1,1,2,1
+Public Method,CH.ifa.draw.contrib.PolygonFigure.locator.(Anon_1).locate,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.contrib.PolygonFigure.outermostPoint,,,,,,,,,,,2,3,1
+Public Method,CH.ifa.draw.contrib.PolygonFigure.pointAt,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.contrib.PolygonFigure.pointCount,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.contrib.PolygonFigure.points,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.contrib.PolygonFigure.read,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.contrib.PolygonFigure.removePointAt,,,,,,,,,,,1,3,1
+Public Method,CH.ifa.draw.contrib.PolygonFigure.scaleRotate,,,,,,,,,,,2,3,1
+Public Method,CH.ifa.draw.contrib.PolygonFigure.setPointAt,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.contrib.PolygonFigure.smoothPoints,,,,,,,,,,,4,6,1
+Public Method,CH.ifa.draw.contrib.PolygonFigure.splitSegment,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.contrib.PolygonFigure.write,,,,,,,,,,,1,2,1
+Public Class,CH.ifa.draw.contrib.PolygonHandle,1,1,1,1,,,1,1,1,1,0,5,5
+Public Constructor,CH.ifa.draw.contrib.PolygonHandle.PolygonHandle,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.contrib.PolygonHandle.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.contrib.PolygonHandle.invokeEnd,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.contrib.PolygonHandle.invokeStep,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.contrib.PolygonHandle.locate,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.contrib.PolygonHandle.myOwner,,,,,,,,,,,0,1,1
+Class,CH.ifa.draw.contrib.PolygonScaleHandle,1,1,1,1,,,3,3,3,3,1,10,9
+Public Constructor,CH.ifa.draw.contrib.PolygonScaleHandle.PolygonScaleHandle,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.contrib.PolygonScaleHandle.draw,,,,,,,,,,,0,1,1
+Method,CH.ifa.draw.contrib.PolygonScaleHandle.getOrigin,,,,,,,,,,,1,3,3
+Public Method,CH.ifa.draw.contrib.PolygonScaleHandle.invokeEnd,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.contrib.PolygonScaleHandle.invokeStart,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.contrib.PolygonScaleHandle.invokeStep,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.contrib.PolygonScaleHandle.locate,,,,,,,,,,,1,2,1
+Public Class,CH.ifa.draw.contrib.PolygonTool,2,2,2,1,,,3,5,3,1,2,16,8
+Public Constructor,CH.ifa.draw.contrib.PolygonTool.PolygonTool,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.contrib.PolygonTool.activate,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.contrib.PolygonTool.addPoint,,,,,,,,,,,1,3,1
+Public Method,CH.ifa.draw.contrib.PolygonTool.deactivate,,,,,,,,,,,2,3,1
+File,CH.ifa.draw.contrib.PolygonTool.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.contrib.PolygonTool.mouseDown,,,,,,,,,,,2,3,1
+Public Method,CH.ifa.draw.contrib.PolygonTool.mouseDrag,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.contrib.PolygonTool.mouseMove,,,,,,,,,,,2,3,1
+Public Method,CH.ifa.draw.contrib.PolygonTool.mouseUp,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.contrib.TriangleFigure,2,1,2,1,,,9,9,3,1,2,31,13
+Public Constructor,CH.ifa.draw.contrib.TriangleFigure.TriangleFigure,,,,,,,,,,,0,1,1
+Public Constructor,CH.ifa.draw.contrib.TriangleFigure.TriangleFigure,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.contrib.TriangleFigure.center,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.contrib.TriangleFigure.chop,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.contrib.TriangleFigure.clone,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.contrib.TriangleFigure.connectionInsets,,,,,,,,,,,1,9,1
+Public Method,CH.ifa.draw.contrib.TriangleFigure.containsPoint,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.contrib.TriangleFigure.draw,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.contrib.TriangleFigure.handles,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.contrib.TriangleFigure.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.contrib.TriangleFigure.polygon,,,,,,,,,,,1,9,1
+Public Method,CH.ifa.draw.contrib.TriangleFigure.read,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.contrib.TriangleFigure.rotate,,,,,,,,,,,2,3,1
+Public Method,CH.ifa.draw.contrib.TriangleFigure.write,,,,,,,,,,,0,1,1
+Class,CH.ifa.draw.contrib.TriangleRotationHandle,1,1,1,1,,,3,3,3,3,1,9,9
+Public Constructor,CH.ifa.draw.contrib.TriangleRotationHandle.TriangleRotationHandle,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.contrib.TriangleRotationHandle.draw,,,,,,,,,,,0,1,1
+Method,CH.ifa.draw.contrib.TriangleRotationHandle.getOrigin,,,,,,,,,,,1,3,3
+Public Method,CH.ifa.draw.contrib.TriangleRotationHandle.invokeEnd,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.contrib.TriangleRotationHandle.invokeStart,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.contrib.TriangleRotationHandle.invokeStep,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.contrib.TriangleRotationHandle.locate,,,,,,,,,,,0,1,1
+Package,CH.ifa.draw.figures,1,1,1,1,33,,12,12,9,8,3,407,294
+Public Class,CH.ifa.draw.figures.ArrowTip,1,1,1,1,,,1,1,1,1,0,8,8
+Public Constructor,CH.ifa.draw.figures.ArrowTip.ArrowTip,,,,,,,,,,,0,1,1
+Public Constructor,CH.ifa.draw.figures.ArrowTip.ArrowTip,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.figures.ArrowTip.addPointRelative,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.ArrowTip.draw,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.figures.ArrowTip.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.figures.ArrowTip.outline,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.figures.ArrowTip.outline,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.ArrowTip.read,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.ArrowTip.write,,,,,,,,,,,0,1,1
+Public Abstract Class,CH.ifa.draw.figures.AttributeFigure,1,1,1,1,,,3,3,3,3,2,20,14
+Protected Constructor,CH.ifa.draw.figures.AttributeFigure.AttributeFigure,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.AttributeFigure.draw,,,,,,,,,,,1,3,1
+Protected Method,CH.ifa.draw.figures.AttributeFigure.drawBackground,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.figures.AttributeFigure.drawFrame,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.AttributeFigure.getAttribute,,,,,,,,,,,2,3,3
+Public Static Method,CH.ifa.draw.figures.AttributeFigure.getDefaultAttribute,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.figures.AttributeFigure.getFillColor,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.AttributeFigure.getFrameColor,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.figures.AttributeFigure.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Private Static Method,CH.ifa.draw.figures.AttributeFigure.initializeAttributes,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.AttributeFigure.read,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.figures.AttributeFigure.setAttribute,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.figures.AttributeFigure.write,,,,,,,,,,,1,2,1
+Public Class,CH.ifa.draw.figures.BorderDecorator,1,1,1,1,,,1,1,1,1,0,7,7
+Public Constructor,CH.ifa.draw.figures.BorderDecorator.BorderDecorator,,,,,,,,,,,0,1,1
+Public Constructor,CH.ifa.draw.figures.BorderDecorator.BorderDecorator,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.figures.BorderDecorator.border,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.BorderDecorator.connectionInsets,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.BorderDecorator.displayBox,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.BorderDecorator.draw,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.BorderDecorator.figureInvalidated,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.figures.BorderDecorator.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Class,CH.ifa.draw.figures.BorderTool,1,1,1,1,,,1,1,1,1,0,2,2
+Public Constructor,CH.ifa.draw.figures.BorderTool.BorderTool,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.BorderTool.action,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.figures.BorderTool.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Class,CH.ifa.draw.figures.ChopEllipseConnector,1,1,1,1,,,1,1,1,1,0,3,3
+Public Constructor,CH.ifa.draw.figures.ChopEllipseConnector.ChopEllipseConnector,,,,,,,,,,,0,1,1
+Public Constructor,CH.ifa.draw.figures.ChopEllipseConnector.ChopEllipseConnector,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.figures.ChopEllipseConnector.chop,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.figures.ChopEllipseConnector.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Class,CH.ifa.draw.figures.ConnectedTextTool,1,1,2,1,,,2,5,2,1,1,4,3
+Public Constructor,CH.ifa.draw.figures.ConnectedTextTool.ConnectedTextTool,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.ConnectedTextTool.activate,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.figures.ConnectedTextTool.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.figures.ConnectedTextTool.mouseDown,,,,,,,,,,,1,2,1
+Public Class,CH.ifa.draw.figures.ElbowConnection,1,1,2,1,,,3,5,3,1,2,10,6
+Public Constructor,CH.ifa.draw.figures.ElbowConnection.ElbowConnection,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.ElbowConnection.connectedTextLocator,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.ElbowConnection.handles,,,,,,,,,,,1,3,1
+File,CH.ifa.draw.figures.ElbowConnection.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.figures.ElbowConnection.layoutConnection,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.ElbowConnection.updateConnection,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.figures.ElbowConnection.updatePoints,,,,,,,,,,,2,3,1
+Public Class,CH.ifa.draw.figures.ElbowHandle,1,1,1,1,,,3,3,3,1,1,14,9
+Public Constructor,CH.ifa.draw.figures.ElbowHandle.ElbowHandle,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.figures.ElbowHandle.constrainX,,,,,,,,,,,1,3,1
+Private Method,CH.ifa.draw.figures.ElbowHandle.constrainY,,,,,,,,,,,1,3,1
+Public Method,CH.ifa.draw.figures.ElbowHandle.draw,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.figures.ElbowHandle.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.figures.ElbowHandle.invokeStart,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.ElbowHandle.invokeStep,,,,,,,,,,,1,2,1
+Private Method,CH.ifa.draw.figures.ElbowHandle.isVertical,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.ElbowHandle.locate,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.figures.ElbowHandle.ownerConnection,,,,,,,,,,,0,1,1
+Class,CH.ifa.draw.figures.ElbowTextLocator,1,1,1,1,,,1,1,1,1,0,1,1
+Public Method,CH.ifa.draw.figures.ElbowTextLocator.locate,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.figures.EllipseFigure,1,1,1,1,,,1,1,1,1,0,12,12
+Public Constructor,CH.ifa.draw.figures.EllipseFigure.EllipseFigure,,,,,,,,,,,0,1,1
+Public Constructor,CH.ifa.draw.figures.EllipseFigure.EllipseFigure,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.EllipseFigure.basicDisplayBox,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.figures.EllipseFigure.basicMoveBy,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.EllipseFigure.connectionInsets,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.EllipseFigure.connectorAt,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.EllipseFigure.displayBox,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.EllipseFigure.drawBackground,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.EllipseFigure.drawFrame,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.EllipseFigure.handles,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.figures.EllipseFigure.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.figures.EllipseFigure.read,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.EllipseFigure.write,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.figures.FigureAttributes,3,3,3,2,,,9,9,9,8,3,23,14
+Public Constructor,CH.ifa.draw.figures.FigureAttributes.FigureAttributes,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.FigureAttributes.clone,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.figures.FigureAttributes.get,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.FigureAttributes.hasDefined,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.figures.FigureAttributes.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.figures.FigureAttributes.read,,,,,,,,,,,2,9,8
+Public Method,CH.ifa.draw.figures.FigureAttributes.set,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.FigureAttributes.write,,,,,,,,,,,3,8,1
+Public Class,CH.ifa.draw.figures.FontSizeHandle,1,1,1,1,,,1,1,1,1,0,4,4
+Public Constructor,CH.ifa.draw.figures.FontSizeHandle.FontSizeHandle,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.FontSizeHandle.draw,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.figures.FontSizeHandle.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.figures.FontSizeHandle.invokeStart,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.FontSizeHandle.invokeStep,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.figures.GroupCommand,1,1,1,1,,,2,2,2,1,1,4,3
+Public Constructor,CH.ifa.draw.figures.GroupCommand.GroupCommand,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.GroupCommand.execute,,,,,,,,,,,1,2,1
+File,CH.ifa.draw.figures.GroupCommand.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.figures.GroupCommand.isExecutable,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.figures.GroupFigure,1,1,1,1,,,2,2,2,1,1,8,6
+Public Method,CH.ifa.draw.figures.GroupFigure.basicDisplayBox,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.GroupFigure.canConnect,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.GroupFigure.decompose,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.GroupFigure.displayBox,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.figures.GroupFigure.handles,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.figures.GroupFigure.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.figures.GroupFigure.setAttribute,,,,,,,,,,,1,2,1
+Class,CH.ifa.draw.figures.GroupHandle,1,1,1,1,,,1,1,1,1,0,2,2
+Public Constructor,CH.ifa.draw.figures.GroupHandle.GroupHandle,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.GroupHandle.draw,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.figures.ImageFigure,1,1,1,1,,,3,3,3,1,2,16,12
+Public Constructor,CH.ifa.draw.figures.ImageFigure.ImageFigure,,,,,,,,,,,0,1,1
+Public Constructor,CH.ifa.draw.figures.ImageFigure.ImageFigure,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.ImageFigure.basicDisplayBox,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.figures.ImageFigure.basicMoveBy,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.ImageFigure.displayBox,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.ImageFigure.draw,,,,,,,,,,,1,3,1
+Private Method,CH.ifa.draw.figures.ImageFigure.drawGhost,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.ImageFigure.handles,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.figures.ImageFigure.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.figures.ImageFigure.imageUpdate,,,,,,,,,,,2,3,1
+Public Method,CH.ifa.draw.figures.ImageFigure.read,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.figures.ImageFigure.readObject,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.ImageFigure.write,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.figures.InsertImageCommand,1,1,1,1,,,1,1,1,1,0,2,2
+Public Constructor,CH.ifa.draw.figures.InsertImageCommand.InsertImageCommand,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.InsertImageCommand.execute,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.figures.InsertImageCommand.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Class,CH.ifa.draw.figures.LineConnection,1,1,1,1,,,4,5,4,1,1,50,34
+Public Constructor,CH.ifa.draw.figures.LineConnection.LineConnection,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.figures.LineConnection.basicMoveBy,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.figures.LineConnection.canConnect,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.LineConnection.canConnect,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.LineConnection.connectEnd,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.LineConnection.connectStart,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.LineConnection.connectsSame,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.LineConnection.disconnectEnd,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.LineConnection.disconnectStart,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.LineConnection.end,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.LineConnection.endFigure,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.figures.LineConnection.endPoint,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.LineConnection.endPoint,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.figures.LineConnection.figureChanged,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.LineConnection.figureInvalidated,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.LineConnection.figureRemoved,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.figures.LineConnection.figureRequestRemove,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.LineConnection.figureRequestUpdate,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.figures.LineConnection.handleConnect,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.figures.LineConnection.handleDisconnect,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.LineConnection.handles,,,,,,,,,,,1,2,1
+File,CH.ifa.draw.figures.LineConnection.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.figures.LineConnection.insertPointAt,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.LineConnection.layoutConnection,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.LineConnection.read,,,,,,,,,,,1,4,1
+Private Method,CH.ifa.draw.figures.LineConnection.readObject,,,,,,,,,,,1,3,1
+Public Method,CH.ifa.draw.figures.LineConnection.release,,,,,,,,,,,1,3,1
+Public Method,CH.ifa.draw.figures.LineConnection.removePointAt,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.LineConnection.setPointAt,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.LineConnection.start,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.LineConnection.startFigure,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.figures.LineConnection.startPoint,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.LineConnection.startPoint,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.figures.LineConnection.updateConnection,,,,,,,,,,,1,3,1
+Public Method,CH.ifa.draw.figures.LineConnection.write,,,,,,,,,,,0,1,1
+Public Interface,CH.ifa.draw.figures.LineDecoration,0,0,0,0,,,0,0,0,0,0,0,0
+Public Abstract Method,CH.ifa.draw.figures.LineDecoration.draw,,,,,,,,,,,0,0,0
+File,CH.ifa.draw.figures.LineDecoration.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Class,CH.ifa.draw.figures.LineFigure,1,1,1,1,,,1,1,1,1,0,7,7
+Public Constructor,CH.ifa.draw.figures.LineFigure.LineFigure,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.LineFigure.basicDisplayBox,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.LineFigure.endPoint,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.LineFigure.endPoint,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.figures.LineFigure.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.figures.LineFigure.setPoints,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.LineFigure.startPoint,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.LineFigure.startPoint,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.figures.NumberTextFigure,1,1,1,1,,,2,2,2,1,1,4,3
+Public Method,CH.ifa.draw.figures.NumberTextFigure.getValue,,,,,,,,,,,1,2,1
+File,CH.ifa.draw.figures.NumberTextFigure.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.figures.NumberTextFigure.overlayColumns,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.NumberTextFigure.setValue,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.figures.PolyLineConnector,2,2,2,1,,,6,6,6,1,3,8,3
+Public Constructor,CH.ifa.draw.figures.PolyLineConnector.PolyLineConnector,,,,,,,,,,,0,1,1
+Public Constructor,CH.ifa.draw.figures.PolyLineConnector.PolyLineConnector,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.figures.PolyLineConnector.chop,,,,,,,,,,,3,6,1
+File,CH.ifa.draw.figures.PolyLineConnector.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Class,CH.ifa.draw.figures.PolyLineFigure,1,1,1,1,,,6,6,6,4,3,56,40
+Public Constructor,CH.ifa.draw.figures.PolyLineFigure.PolyLineFigure,,,,,,,,,,,0,1,1
+Public Constructor,CH.ifa.draw.figures.PolyLineFigure.PolyLineFigure,,,,,,,,,,,0,1,1
+Public Constructor,CH.ifa.draw.figures.PolyLineFigure.PolyLineFigure,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.PolyLineFigure.addPoint,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.PolyLineFigure.basicDisplayBox,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.figures.PolyLineFigure.basicMoveBy,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.figures.PolyLineFigure.connectorAt,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.PolyLineFigure.containsPoint,,,,,,,,,,,2,4,4
+Private Method,CH.ifa.draw.figures.PolyLineFigure.decorate,,,,,,,,,,,1,3,1
+Public Method,CH.ifa.draw.figures.PolyLineFigure.displayBox,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.figures.PolyLineFigure.draw,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.figures.PolyLineFigure.findSegment,,,,,,,,,,,2,3,3
+Public Method,CH.ifa.draw.figures.PolyLineFigure.getAttribute,,,,,,,,,,,2,5,3
+Protected Method,CH.ifa.draw.figures.PolyLineFigure.getFrameColor,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.PolyLineFigure.handles,,,,,,,,,,,1,2,1
+File,CH.ifa.draw.figures.PolyLineFigure.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.figures.PolyLineFigure.insertPointAt,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.PolyLineFigure.isEmpty,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.PolyLineFigure.joinSegments,,,,,,,,,,,2,3,3
+Public Static Method,CH.ifa.draw.figures.PolyLineFigure.locator,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.PolyLineFigure.pointAt,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.PolyLineFigure.pointCount,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.PolyLineFigure.points,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.PolyLineFigure.read,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.figures.PolyLineFigure.removePointAt,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.PolyLineFigure.setAttribute,,,,,,,,,,,3,6,1
+Public Method,CH.ifa.draw.figures.PolyLineFigure.setEndDecoration,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.figures.PolyLineFigure.setFrameColor,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.PolyLineFigure.setPointAt,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.PolyLineFigure.setStartDecoration,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.PolyLineFigure.splitSegment,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.figures.PolyLineFigure.write,,,,,,,,,,,1,2,1
+Public Class,CH.ifa.draw.figures.PolyLineHandle,1,1,1,1,,,1,1,1,1,0,4,4
+Public Constructor,CH.ifa.draw.figures.PolyLineHandle.PolyLineHandle,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.figures.PolyLineHandle.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.figures.PolyLineHandle.invokeStart,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.PolyLineHandle.invokeStep,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.figures.PolyLineHandle.myOwner,,,,,,,,,,,0,1,1
+Class,CH.ifa.draw.figures.PolyLineLocator,1,1,1,1,,,2,2,2,1,1,3,2
+Public Constructor,CH.ifa.draw.figures.PolyLineLocator.PolyLineLocator,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.PolyLineLocator.locate,,,,,,,,,,,1,2,1
+Class,CH.ifa.draw.figures.RadiusHandle,1,1,1,1,,,1,1,1,1,0,5,5
+Public Constructor,CH.ifa.draw.figures.RadiusHandle.RadiusHandle,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.RadiusHandle.draw,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.RadiusHandle.invokeStart,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.RadiusHandle.invokeStep,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.RadiusHandle.locate,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.figures.RectangleFigure,1,1,1,1,,,1,1,1,1,0,10,10
+Public Constructor,CH.ifa.draw.figures.RectangleFigure.RectangleFigure,,,,,,,,,,,0,1,1
+Public Constructor,CH.ifa.draw.figures.RectangleFigure.RectangleFigure,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.RectangleFigure.basicDisplayBox,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.figures.RectangleFigure.basicMoveBy,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.RectangleFigure.displayBox,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.RectangleFigure.drawBackground,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.RectangleFigure.drawFrame,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.RectangleFigure.handles,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.figures.RectangleFigure.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.figures.RectangleFigure.read,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.RectangleFigure.write,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.figures.RoundRectangleFigure,1,1,1,1,,,1,1,1,1,0,14,14
+Public Constructor,CH.ifa.draw.figures.RoundRectangleFigure.RoundRectangleFigure,,,,,,,,,,,0,1,1
+Public Constructor,CH.ifa.draw.figures.RoundRectangleFigure.RoundRectangleFigure,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.RoundRectangleFigure.basicDisplayBox,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.figures.RoundRectangleFigure.basicMoveBy,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.RoundRectangleFigure.connectionInsets,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.RoundRectangleFigure.connectorAt,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.RoundRectangleFigure.displayBox,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.RoundRectangleFigure.drawBackground,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.RoundRectangleFigure.drawFrame,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.RoundRectangleFigure.getArc,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.RoundRectangleFigure.handles,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.figures.RoundRectangleFigure.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.figures.RoundRectangleFigure.read,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.RoundRectangleFigure.setArc,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.RoundRectangleFigure.write,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.figures.ScribbleTool,2,2,2,1,,,3,4,3,1,2,12,6
+Public Constructor,CH.ifa.draw.figures.ScribbleTool.ScribbleTool,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.ScribbleTool.activate,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.ScribbleTool.deactivate,,,,,,,,,,,2,3,1
+File,CH.ifa.draw.figures.ScribbleTool.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.figures.ScribbleTool.mouseDown,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.figures.ScribbleTool.mouseDrag,,,,,,,,,,,1,2,1
+Private Method,CH.ifa.draw.figures.ScribbleTool.point,,,,,,,,,,,1,3,1
+Public Class,CH.ifa.draw.figures.ShortestDistanceConnector,3,2,3,1,,,12,12,9,1,2,16,5
+Public Constructor,CH.ifa.draw.figures.ShortestDistanceConnector.ShortestDistanceConnector,,,,,,,,,,,0,1,1
+Public Constructor,CH.ifa.draw.figures.ShortestDistanceConnector.ShortestDistanceConnector,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.ShortestDistanceConnector.findEnd,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.figures.ShortestDistanceConnector.findPoint,,,,,,,,,,,2,12,1
+Public Method,CH.ifa.draw.figures.ShortestDistanceConnector.findStart,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.figures.ShortestDistanceConnector.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Class,CH.ifa.draw.figures.TextFigure,1,1,1,1,,,5,5,5,4,2,56,41
+Public Constructor,CH.ifa.draw.figures.TextFigure.TextFigure,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.TextFigure.acceptsTyping,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.TextFigure.basicDisplayBox,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.figures.TextFigure.basicMoveBy,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.TextFigure.changed,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.TextFigure.connect,,,,,,,,,,,1,2,1
+Public Static Method,CH.ifa.draw.figures.TextFigure.createCurrentFont,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.TextFigure.disconnect,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.TextFigure.displayBox,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.TextFigure.drawBackground,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.TextFigure.drawFrame,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.TextFigure.figureChanged,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.TextFigure.figureInvalidated,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.TextFigure.figureRemoved,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.figures.TextFigure.figureRequestRemove,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.TextFigure.figureRequestUpdate,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.TextFigure.getAttribute,,,,,,,,,,,1,4,4
+Public Method,CH.ifa.draw.figures.TextFigure.getFont,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.TextFigure.getText,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.TextFigure.handles,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.figures.TextFigure.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Private Method,CH.ifa.draw.figures.TextFigure.markDirty,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.TextFigure.moveBy,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.figures.TextFigure.overlayColumns,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.figures.TextFigure.read,,,,,,,,,,,1,2,1
+Private Method,CH.ifa.draw.figures.TextFigure.readObject,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.figures.TextFigure.readOnly,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.TextFigure.release,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.figures.TextFigure.setAttribute,,,,,,,,,,,2,5,1
+Public Static Method,CH.ifa.draw.figures.TextFigure.setCurrentFontName,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.figures.TextFigure.setCurrentFontSize,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.figures.TextFigure.setCurrentFontStyle,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.TextFigure.setFont,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.TextFigure.setReadOnly,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.TextFigure.setText,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.figures.TextFigure.textDisplayBox,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.figures.TextFigure.textExtent,,,,,,,,,,,1,2,1
+Protected Method,CH.ifa.draw.figures.TextFigure.updateLocation,,,,,,,,,,,2,3,1
+Public Method,CH.ifa.draw.figures.TextFigure.write,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.figures.TextTool,1,1,2,1,,,5,5,5,1,2,17,9
+Public Constructor,CH.ifa.draw.figures.TextTool.TextTool,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.TextTool.activate,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.figures.TextTool.beginEdit,,,,,,,,,,,1,3,1
+Public Method,CH.ifa.draw.figures.TextTool.deactivate,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.figures.TextTool.endEdit,,,,,,,,,,,2,3,1
+Private Method,CH.ifa.draw.figures.TextTool.fieldBounds,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.figures.TextTool.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.figures.TextTool.mouseDown,,,,,,,,,,,2,5,1
+Public Method,CH.ifa.draw.figures.TextTool.mouseDrag,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.TextTool.mouseUp,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.figures.UngroupCommand,1,1,1,1,,,3,3,3,1,2,5,3
+Public Constructor,CH.ifa.draw.figures.UngroupCommand.UngroupCommand,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.figures.UngroupCommand.execute,,,,,,,,,,,2,3,1
+File,CH.ifa.draw.figures.UngroupCommand.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.figures.UngroupCommand.isExecutable,,,,,,,,,,,0,1,1
+Package,CH.ifa.draw.framework,1,1,1,1,18,,4,4,4,1,3,15,11
+Public Interface,CH.ifa.draw.framework.ConnectionFigure,0,0,0,0,,,0,0,0,0,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.ConnectionFigure.canConnect,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.ConnectionFigure.connectEnd,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.ConnectionFigure.connectStart,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.ConnectionFigure.connectsSame,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.ConnectionFigure.disconnectEnd,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.ConnectionFigure.disconnectStart,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.ConnectionFigure.end,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.ConnectionFigure.endPoint,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.ConnectionFigure.endPoint,,,,,,,,,,,0,0,0
+File,CH.ifa.draw.framework.ConnectionFigure.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.ConnectionFigure.joinSegments,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.ConnectionFigure.pointAt,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.ConnectionFigure.pointCount,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.ConnectionFigure.setPointAt,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.ConnectionFigure.splitSegment,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.ConnectionFigure.start,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.ConnectionFigure.startPoint,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.ConnectionFigure.startPoint,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.ConnectionFigure.updateConnection,,,,,,,,,,,0,0,0
+Public Interface,CH.ifa.draw.framework.Connector,0,0,0,0,,,0,0,0,0,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Connector.containsPoint,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Connector.displayBox,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Connector.draw,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Connector.findEnd,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Connector.findStart,,,,,,,,,,,0,0,0
+File,CH.ifa.draw.framework.Connector.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Connector.owner,,,,,,,,,,,0,0,0
+Public Interface,CH.ifa.draw.framework.Drawing,0,0,0,0,,,0,0,0,0,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Drawing.add,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Drawing.addAll,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Drawing.addDrawingChangeListener,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Drawing.bringToFront,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Drawing.draw,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Drawing.drawingChangeListeners,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Drawing.figureInvalidated,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Drawing.figureRequestRemove,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Drawing.figureRequestUpdate,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Drawing.figures,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Drawing.figuresReverse,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Drawing.findFigure,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Drawing.findFigure,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Drawing.findFigure,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Drawing.findFigureInside,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Drawing.findFigureInsideWithout,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Drawing.findFigureWithout,,,,,,,,,,,0,0,0
+File,CH.ifa.draw.framework.Drawing.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Drawing.lock,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Drawing.orphan,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Drawing.orphanAll,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Drawing.release,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Drawing.remove,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Drawing.removeAll,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Drawing.removeDrawingChangeListener,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Drawing.replace,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Drawing.sendToBack,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Drawing.unlock,,,,,,,,,,,0,0,0
+Public Class,CH.ifa.draw.framework.DrawingChangeEvent,1,1,1,1,,,1,1,1,1,0,3,3
+Public Constructor,CH.ifa.draw.framework.DrawingChangeEvent.DrawingChangeEvent,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.framework.DrawingChangeEvent.getDrawing,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.framework.DrawingChangeEvent.getInvalidatedRectangle,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.framework.DrawingChangeEvent.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Interface,CH.ifa.draw.framework.DrawingChangeListener,0,0,0,0,,,0,0,0,0,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingChangeListener.drawingInvalidated,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingChangeListener.drawingRequestUpdate,,,,,,,,,,,0,0,0
+File,CH.ifa.draw.framework.DrawingChangeListener.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Interface,CH.ifa.draw.framework.DrawingEditor,0,0,0,0,,,0,0,0,0,0,0,0
+Abstract Method,CH.ifa.draw.framework.DrawingEditor.drawing,,,,,,,,,,,0,0,0
+File,CH.ifa.draw.framework.DrawingEditor.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Abstract Method,CH.ifa.draw.framework.DrawingEditor.selectionChanged,,,,,,,,,,,0,0,0
+Abstract Method,CH.ifa.draw.framework.DrawingEditor.showStatus,,,,,,,,,,,0,0,0
+Abstract Method,CH.ifa.draw.framework.DrawingEditor.tool,,,,,,,,,,,0,0,0
+Abstract Method,CH.ifa.draw.framework.DrawingEditor.toolDone,,,,,,,,,,,0,0,0
+Abstract Method,CH.ifa.draw.framework.DrawingEditor.view,,,,,,,,,,,0,0,0
+Public Interface,CH.ifa.draw.framework.DrawingView,0,0,0,0,,,0,0,0,0,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.add,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.addAll,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.addToSelection,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.addToSelectionAll,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.checkDamage,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.clearSelection,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.createImage,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.drawAll,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.drawBackground,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.drawDrawing,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.drawHandles,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.drawing,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.editor,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.findHandle,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.freezeView,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.getBackground,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.getConstrainer,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.getFigureSelection,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.getGraphics,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.getMinimumSize,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.getPreferredSize,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.getSize,,,,,,,,,,,0,0,0
+File,CH.ifa.draw.framework.DrawingView.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.lastClick,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.paint,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.remove,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.removeFromSelection,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.repairDamage,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.selection,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.selectionCount,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.selectionElements,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.selectionZOrdered,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.setBackground,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.setConstrainer,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.setCursor,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.setDisplayUpdate,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.setDrawing,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.setEditor,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.toggleSelection,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.tool,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.DrawingView.unfreezeView,,,,,,,,,,,0,0,0
+Public Interface,CH.ifa.draw.framework.Figure,0,0,0,0,,,0,0,0,0,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Figure.addFigureChangeListener,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Figure.addToContainer,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Figure.basicDisplayBox,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Figure.canConnect,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Figure.center,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Figure.changed,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Figure.clone,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Figure.connectedTextLocator,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Figure.connectionInsets,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Figure.connectorAt,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Figure.connectorVisibility,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Figure.containsPoint,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Figure.decompose,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Figure.displayBox,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Figure.displayBox,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Figure.displayBox,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Figure.draw,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Figure.figures,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Figure.findFigureInside,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Figure.getAttribute,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Figure.handles,,,,,,,,,,,0,0,0
+File,CH.ifa.draw.framework.Figure.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Figure.includes,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Figure.invalidate,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Figure.isEmpty,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Figure.listener,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Figure.moveBy,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Figure.release,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Figure.removeFigureChangeListener,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Figure.removeFromContainer,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Figure.setAttribute,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Figure.size,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Figure.willChange,,,,,,,,,,,0,0,0
+Public Class,CH.ifa.draw.framework.FigureChangeEvent,1,1,1,1,,,1,1,1,1,0,4,4
+Public Constructor,CH.ifa.draw.framework.FigureChangeEvent.FigureChangeEvent,,,,,,,,,,,0,1,1
+Public Constructor,CH.ifa.draw.framework.FigureChangeEvent.FigureChangeEvent,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.framework.FigureChangeEvent.getFigure,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.framework.FigureChangeEvent.getInvalidatedRectangle,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.framework.FigureChangeEvent.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Interface,CH.ifa.draw.framework.FigureChangeListener,0,0,0,0,,,0,0,0,0,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.FigureChangeListener.figureChanged,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.FigureChangeListener.figureInvalidated,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.FigureChangeListener.figureRemoved,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.FigureChangeListener.figureRequestRemove,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.FigureChangeListener.figureRequestUpdate,,,,,,,,,,,0,0,0
+File,CH.ifa.draw.framework.FigureChangeListener.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Interface,CH.ifa.draw.framework.FigureEnumeration,0,0,0,0,,,0,0,0,0,0,0,0
+File,CH.ifa.draw.framework.FigureEnumeration.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.FigureEnumeration.nextFigure,,,,,,,,,,,0,0,0
+Public Class,CH.ifa.draw.framework.FigureSelection,2,2,2,1,,,4,4,4,1,3,7,3
+Public Constructor,CH.ifa.draw.framework.FigureSelection.FigureSelection,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.framework.FigureSelection.getData,,,,,,,,,,,3,4,1
+Public Method,CH.ifa.draw.framework.FigureSelection.getType,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.framework.FigureSelection.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Class,CH.ifa.draw.framework.HJDError,1,1,1,1,,,1,1,1,1,0,1,1
+Public Constructor,CH.ifa.draw.framework.HJDError.HJDError,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.framework.HJDError.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Interface,CH.ifa.draw.framework.Handle,0,0,0,0,,,0,0,0,0,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Handle.containsPoint,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Handle.displayBox,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Handle.draw,,,,,,,,,,,0,0,0
+File,CH.ifa.draw.framework.Handle.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Handle.invokeEnd,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Handle.invokeEnd,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Handle.invokeStart,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Handle.invokeStart,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Handle.invokeStep,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Handle.invokeStep,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Handle.locate,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Handle.owner,,,,,,,,,,,0,0,0
+Public Interface,CH.ifa.draw.framework.Locator,0,0,0,0,,,0,0,0,0,0,0,0
+File,CH.ifa.draw.framework.Locator.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Locator.locate,,,,,,,,,,,0,0,0
+Public Interface,CH.ifa.draw.framework.Painter,0,0,0,0,,,0,0,0,0,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Painter.draw,,,,,,,,,,,0,0,0
+File,CH.ifa.draw.framework.Painter.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Interface,CH.ifa.draw.framework.PointConstrainer,0,0,0,0,,,0,0,0,0,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.PointConstrainer.constrainPoint,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.PointConstrainer.getStepX,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.PointConstrainer.getStepY,,,,,,,,,,,0,0,0
+File,CH.ifa.draw.framework.PointConstrainer.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Interface,CH.ifa.draw.framework.Tool,0,0,0,0,,,0,0,0,0,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Tool.activate,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Tool.deactivate,,,,,,,,,,,0,0,0
+File,CH.ifa.draw.framework.Tool.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Tool.keyDown,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Tool.mouseDown,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Tool.mouseDrag,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Tool.mouseMove,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.framework.Tool.mouseUp,,,,,,,,,,,0,0,0
+Package,CH.ifa.draw.samples,0,0,0,0,0,,0,0,0,0,0,0,0
+Package,CH.ifa.draw.samples.javadraw,1,1,1,1,15,,5,9,5,3,2,106,78
+Public Class,CH.ifa.draw.samples.javadraw.AnimationDecorator,1,1,1,1,,,5,9,5,1,1,14,10
+Public Constructor,CH.ifa.draw.samples.javadraw.AnimationDecorator.AnimationDecorator,,,,,,,,,,,0,1,1
+Public Constructor,CH.ifa.draw.samples.javadraw.AnimationDecorator.AnimationDecorator,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.javadraw.AnimationDecorator.animationStep,,,,,,,,,,,1,5,1
+Public Method,CH.ifa.draw.samples.javadraw.AnimationDecorator.basicDisplayBox,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.javadraw.AnimationDecorator.basicMoveBy,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.javadraw.AnimationDecorator.displayBox,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.javadraw.AnimationDecorator.read,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.javadraw.AnimationDecorator.velocity,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.javadraw.AnimationDecorator.velocity,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.javadraw.AnimationDecorator.write,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.samples.javadraw.Animator,1,1,1,1,,,3,3,3,3,2,6,6
+Public Constructor,CH.ifa.draw.samples.javadraw.Animator.Animator,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.javadraw.Animator.end,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.javadraw.Animator.run,,,,,,,,,,,2,3,3
+Public Method,CH.ifa.draw.samples.javadraw.Animator.start,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.samples.javadraw.BouncingDrawing,2,2,2,1,,,2,2,2,1,1,8,4
+Public Method,CH.ifa.draw.samples.javadraw.BouncingDrawing.add,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.samples.javadraw.BouncingDrawing.animationStep,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.samples.javadraw.BouncingDrawing.remove,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.samples.javadraw.BouncingDrawing.replace,,,,,,,,,,,1,2,1
+Class,CH.ifa.draw.samples.javadraw.FollowURLTool,2,2,2,1,,,4,4,4,3,1,8,5
+Constructor,CH.ifa.draw.samples.javadraw.FollowURLTool.FollowURLTool,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.javadraw.FollowURLTool.mouseMove,,,,,,,,,,,1,3,1
+Public Method,CH.ifa.draw.samples.javadraw.FollowURLTool.mouseUp,,,,,,,,,,,1,4,3
+Public Class,CH.ifa.draw.samples.javadraw.JavaDrawApp,1,1,1,1,,,3,3,3,1,2,20,16
+Public Constructor,CH.ifa.draw.samples.javadraw.JavaDrawApp.JavaDrawApp,,,,,,,,,,,0,1,1
+Public Constructor,CH.ifa.draw.samples.javadraw.JavaDrawApp.JavaDrawApp,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.samples.javadraw.JavaDrawApp.createAnimationMenu,,,,,,,,,,,0,1,1
+Anonymous Class,CH.ifa.draw.samples.javadraw.JavaDrawApp.createAnimationMenu.(Anon_1),1,1,1,1,,,1,1,1,1,0,1,1
+Public Method,CH.ifa.draw.samples.javadraw.JavaDrawApp.createAnimationMenu.(Anon_1).actionPerformed,,,,,,,,,,,0,1,1
+Anonymous Class,CH.ifa.draw.samples.javadraw.JavaDrawApp.createAnimationMenu.(Anon_2),1,1,1,1,,,1,1,1,1,0,1,1
+Public Method,CH.ifa.draw.samples.javadraw.JavaDrawApp.createAnimationMenu.(Anon_2).actionPerformed,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.samples.javadraw.JavaDrawApp.createDrawing,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.samples.javadraw.JavaDrawApp.createImagesMenu,,,,,,,,,,,2,3,1
+Protected Method,CH.ifa.draw.samples.javadraw.JavaDrawApp.createMenus,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.samples.javadraw.JavaDrawApp.createSelectionTool,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.samples.javadraw.JavaDrawApp.createTools,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.samples.javadraw.JavaDrawApp.createWindowMenu,,,,,,,,,,,0,1,1
+Anonymous Class,CH.ifa.draw.samples.javadraw.JavaDrawApp.createWindowMenu.(Anon_3),1,1,1,1,,,1,1,1,1,0,1,1
+Public Method,CH.ifa.draw.samples.javadraw.JavaDrawApp.createWindowMenu.(Anon_3).actionPerformed,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.samples.javadraw.JavaDrawApp.defaultSize,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.javadraw.JavaDrawApp.destroy,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.javadraw.JavaDrawApp.endAnimation,,,,,,,,,,,1,2,1
+Public Static Method,CH.ifa.draw.samples.javadraw.JavaDrawApp.main,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.javadraw.JavaDrawApp.open,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.javadraw.JavaDrawApp.openView,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.javadraw.JavaDrawApp.startAnimation,,,,,,,,,,,1,2,1
+Public Class,CH.ifa.draw.samples.javadraw.JavaDrawApplet,1,1,1,1,,,2,3,2,1,1,10,7
+Protected Method,CH.ifa.draw.samples.javadraw.JavaDrawApplet.createButtons,,,,,,,,,,,0,1,1
+Anonymous Class,CH.ifa.draw.samples.javadraw.JavaDrawApplet.createButtons.(Anon_1),1,1,1,1,,,1,1,1,1,0,1,1
+Public Method,CH.ifa.draw.samples.javadraw.JavaDrawApplet.createButtons.(Anon_1).actionPerformed,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.samples.javadraw.JavaDrawApplet.createDrawing,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.samples.javadraw.JavaDrawApplet.createTools,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.javadraw.JavaDrawApplet.destroy,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.javadraw.JavaDrawApplet.endAnimation,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.samples.javadraw.JavaDrawApplet.startAnimation,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.samples.javadraw.JavaDrawApplet.toggleAnimation,,,,,,,,,,,1,2,1
+Public Class,CH.ifa.draw.samples.javadraw.JavaDrawViewer,1,1,1,1,,,2,2,2,1,1,9,7
+Public Method,CH.ifa.draw.samples.javadraw.JavaDrawViewer.drawing,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.javadraw.JavaDrawViewer.init,,,,,,,,,,,1,2,1
+Private Method,CH.ifa.draw.samples.javadraw.JavaDrawViewer.loadDrawing,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.samples.javadraw.JavaDrawViewer.selectionChanged,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.javadraw.JavaDrawViewer.tool,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.javadraw.JavaDrawViewer.toolDone,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.javadraw.JavaDrawViewer.view,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.samples.javadraw.MySelectionTool,1,1,1,1,,,3,3,3,3,2,5,5
+Public Constructor,CH.ifa.draw.samples.javadraw.MySelectionTool.MySelectionTool,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.samples.javadraw.MySelectionTool.inspectFigure,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.javadraw.MySelectionTool.mouseDown,,,,,,,,,,,2,3,3
+Public Class,CH.ifa.draw.samples.javadraw.PatternPainter,1,1,1,1,,,3,3,3,1,2,5,3
+Public Constructor,CH.ifa.draw.samples.javadraw.PatternPainter.PatternPainter,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.javadraw.PatternPainter.draw,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.samples.javadraw.PatternPainter.drawPattern,,,,,,,,,,,2,3,1
+Public Class,CH.ifa.draw.samples.javadraw.URLTool,1,1,1,1,,,4,5,4,1,1,16,10
+Public Constructor,CH.ifa.draw.samples.javadraw.URLTool.URLTool,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.samples.javadraw.URLTool.beginEdit,,,,,,,,,,,1,4,1
+Anonymous Class,CH.ifa.draw.samples.javadraw.URLTool.beginEdit.(Anon_1),1,1,1,1,,,1,1,1,1,0,1,1
+Public Method,CH.ifa.draw.samples.javadraw.URLTool.beginEdit.(Anon_1).actionPerformed,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.javadraw.URLTool.deactivate,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.javadraw.URLTool.endAction,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.samples.javadraw.URLTool.endEdit,,,,,,,,,,,1,2,1
+Private Method,CH.ifa.draw.samples.javadraw.URLTool.fieldBounds,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.samples.javadraw.URLTool.getURL,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.samples.javadraw.URLTool.mouseDown,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.samples.javadraw.URLTool.mouseUp,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.samples.javadraw.URLTool.setURL,,,,,,,,,,,0,1,1
+Package,CH.ifa.draw.samples.net,1,1,1,1,2,,3,3,3,1,2,22,16
+Public Class,CH.ifa.draw.samples.net.NetApp,1,1,1,1,,,1,1,1,1,0,3,3
+Constructor,CH.ifa.draw.samples.net.NetApp.NetApp,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.samples.net.NetApp.createTools,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.samples.net.NetApp.main,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.samples.net.NodeFigure,1,1,1,1,,,3,3,3,1,2,19,13
+Public Constructor,CH.ifa.draw.samples.net.NodeFigure.NodeFigure,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.net.NodeFigure.connectorAt,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.net.NodeFigure.connectorVisibility,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.samples.net.NodeFigure.connectors,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.samples.net.NodeFigure.containsPoint,,,,,,,,,,,1,2,1
+Private Method,CH.ifa.draw.samples.net.NodeFigure.createConnectors,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.net.NodeFigure.displayBox,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.net.NodeFigure.draw,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.samples.net.NodeFigure.drawBorder,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.samples.net.NodeFigure.drawConnectors,,,,,,,,,,,2,3,1
+Private Method,CH.ifa.draw.samples.net.NodeFigure.findConnector,,,,,,,,,,,2,3,1
+Public Method,CH.ifa.draw.samples.net.NodeFigure.handles,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.samples.net.NodeFigure.initialize,,,,,,,,,,,0,1,1
+Package,CH.ifa.draw.samples.nothing,1,1,1,1,2,,1,1,1,1,0,4,4
+Public Class,CH.ifa.draw.samples.nothing.NothingApp,1,1,1,1,,,1,1,1,1,0,3,3
+Constructor,CH.ifa.draw.samples.nothing.NothingApp.NothingApp,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.samples.nothing.NothingApp.createTools,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.samples.nothing.NothingApp.main,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.samples.nothing.NothingApplet,1,1,1,1,,,1,1,1,1,0,1,1
+Protected Method,CH.ifa.draw.samples.nothing.NothingApplet.createTools,,,,,,,,,,,0,1,1
+Package,CH.ifa.draw.samples.pert,1,1,1,1,5,,4,4,4,4,2,60,46
+Public Class,CH.ifa.draw.samples.pert.PertApplet,1,1,1,1,,,1,1,1,1,0,1,1
+Protected Method,CH.ifa.draw.samples.pert.PertApplet.createTools,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.samples.pert.PertApplication,1,1,1,1,,,1,1,1,1,0,3,3
+Constructor,CH.ifa.draw.samples.pert.PertApplication.PertApplication,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.samples.pert.PertApplication.createTools,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.samples.pert.PertApplication.main,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.samples.pert.PertDependency,1,1,1,1,,,3,3,3,1,1,8,5
+Public Constructor,CH.ifa.draw.samples.pert.PertDependency.PertDependency,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.pert.PertDependency.canConnect,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.pert.PertDependency.handleConnect,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.samples.pert.PertDependency.handleDisconnect,,,,,,,,,,,1,3,1
+Public Method,CH.ifa.draw.samples.pert.PertDependency.handles,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.samples.pert.PertFigure,1,1,1,1,,,4,4,4,4,2,46,35
+Public Constructor,CH.ifa.draw.samples.pert.PertFigure.PertFigure,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.pert.PertFigure.addPostTask,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.samples.pert.PertFigure.addPreTask,,,,,,,,,,,1,2,1
+Private Method,CH.ifa.draw.samples.pert.PertFigure.asInt,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.pert.PertFigure.basicDisplayBox,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.samples.pert.PertFigure.basicMoveBy,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.pert.PertFigure.connectionInsets,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.pert.PertFigure.displayBox,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.pert.PertFigure.draw,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.samples.pert.PertFigure.drawBorder,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.pert.PertFigure.duration,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.pert.PertFigure.end,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.pert.PertFigure.figureChanged,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.pert.PertFigure.figureRemoved,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.pert.PertFigure.handles,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.pert.PertFigure.hasCycle,,,,,,,,,,,2,4,4
+Private Method,CH.ifa.draw.samples.pert.PertFigure.initialize,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.samples.pert.PertFigure.layout,,,,,,,,,,,1,2,1
+Private Method,CH.ifa.draw.samples.pert.PertFigure.needsLayout,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.samples.pert.PertFigure.notifyPostTasks,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.samples.pert.PertFigure.read,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.pert.PertFigure.readTasks,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.samples.pert.PertFigure.removePostTask,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.pert.PertFigure.removePreTask,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.pert.PertFigure.setEnd,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.samples.pert.PertFigure.setInt,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.pert.PertFigure.start,,,,,,,,,,,1,2,1
+Private Method,CH.ifa.draw.samples.pert.PertFigure.taskName,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.pert.PertFigure.update,,,,,,,,,,,1,3,1
+Public Method,CH.ifa.draw.samples.pert.PertFigure.updateDurations,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.samples.pert.PertFigure.write,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.samples.pert.PertFigure.writeTasks,,,,,,,,,,,1,2,1
+Public Class,CH.ifa.draw.samples.pert.PertFigureCreationTool,1,1,1,1,,,1,1,1,1,0,2,2
+Public Constructor,CH.ifa.draw.samples.pert.PertFigureCreationTool.PertFigureCreationTool,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.samples.pert.PertFigureCreationTool.createFigure,,,,,,,,,,,0,1,1
+Package,CH.ifa.draw.standard,1,1,1,1,54,,8,8,7,4,3,613,461
+Public Abstract Class,CH.ifa.draw.standard.AbstractConnector,1,1,1,1,,,1,1,1,1,0,11,11
+Public Constructor,CH.ifa.draw.standard.AbstractConnector.AbstractConnector,,,,,,,,,,,0,1,1
+Public Constructor,CH.ifa.draw.standard.AbstractConnector.AbstractConnector,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractConnector.containsPoint,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractConnector.displayBox,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractConnector.draw,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractConnector.findEnd,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.standard.AbstractConnector.findPoint,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractConnector.findStart,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.standard.AbstractConnector.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.standard.AbstractConnector.owner,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractConnector.read,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractConnector.write,,,,,,,,,,,0,1,1
+Public Abstract Class,CH.ifa.draw.standard.AbstractFigure,1,1,1,1,,,4,4,4,1,1,38,31
+Protected Constructor,CH.ifa.draw.standard.AbstractFigure.AbstractFigure,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractFigure.addFigureChangeListener,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractFigure.addToContainer,,,,,,,,,,,0,1,1
+Public Abstract Method,CH.ifa.draw.standard.AbstractFigure.basicDisplayBox,,,,,,,,,,,0,0,0
+Protected Abstract Method,CH.ifa.draw.standard.AbstractFigure.basicMoveBy,,,,,,,,,,,0,0,0
+Public Method,CH.ifa.draw.standard.AbstractFigure.canConnect,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractFigure.center,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractFigure.changed,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.AbstractFigure.clone,,,,,,,,,,,1,4,1
+Public Method,CH.ifa.draw.standard.AbstractFigure.connectedTextLocator,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractFigure.connectionInsets,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractFigure.connectorAt,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractFigure.connectorVisibility,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractFigure.containsPoint,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractFigure.decompose,,,,,,,,,,,0,1,1
+Public Abstract Method,CH.ifa.draw.standard.AbstractFigure.displayBox,,,,,,,,,,,0,0,0
+Public Method,CH.ifa.draw.standard.AbstractFigure.displayBox,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractFigure.displayBox,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractFigure.figures,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractFigure.findFigureInside,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.AbstractFigure.getAttribute,,,,,,,,,,,0,1,1
+Public Abstract Method,CH.ifa.draw.standard.AbstractFigure.handles,,,,,,,,,,,0,0,0
+File,CH.ifa.draw.standard.AbstractFigure.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.standard.AbstractFigure.includes,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractFigure.invalidate,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.AbstractFigure.isEmpty,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractFigure.listener,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractFigure.moveBy,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractFigure.read,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractFigure.release,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.AbstractFigure.removeFigureChangeListener,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractFigure.removeFromContainer,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractFigure.setAttribute,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractFigure.size,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractFigure.willChange,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractFigure.write,,,,,,,,,,,0,1,1
+Public Abstract Class,CH.ifa.draw.standard.AbstractHandle,1,1,1,1,,,1,1,1,1,0,11,11
+Public Constructor,CH.ifa.draw.standard.AbstractHandle.AbstractHandle,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractHandle.containsPoint,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractHandle.displayBox,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractHandle.draw,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.standard.AbstractHandle.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.standard.AbstractHandle.invokeEnd,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractHandle.invokeEnd,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractHandle.invokeStart,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractHandle.invokeStart,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractHandle.invokeStep,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractHandle.invokeStep,,,,,,,,,,,0,1,1
+Public Abstract Method,CH.ifa.draw.standard.AbstractHandle.locate,,,,,,,,,,,0,0,0
+Public Method,CH.ifa.draw.standard.AbstractHandle.owner,,,,,,,,,,,0,1,1
+Public Abstract Class,CH.ifa.draw.standard.AbstractLocator,1,1,1,1,,,2,2,2,1,1,5,4
+Protected Constructor,CH.ifa.draw.standard.AbstractLocator.AbstractLocator,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractLocator.clone,,,,,,,,,,,1,2,1
+File,CH.ifa.draw.standard.AbstractLocator.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.standard.AbstractLocator.read,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractLocator.write,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.standard.AbstractTool,1,1,1,1,,,1,1,1,1,0,11,11
+Public Constructor,CH.ifa.draw.standard.AbstractTool.AbstractTool,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractTool.activate,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractTool.deactivate,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractTool.drawing,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractTool.editor,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.standard.AbstractTool.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.standard.AbstractTool.keyDown,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractTool.mouseDown,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractTool.mouseDrag,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractTool.mouseMove,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractTool.mouseUp,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AbstractTool.view,,,,,,,,,,,0,1,1
+Public Abstract Class,CH.ifa.draw.standard.ActionTool,1,1,1,1,,,2,2,2,1,1,4,3
+Public Constructor,CH.ifa.draw.standard.ActionTool.ActionTool,,,,,,,,,,,0,1,1
+Public Abstract Method,CH.ifa.draw.standard.ActionTool.action,,,,,,,,,,,0,0,0
+File,CH.ifa.draw.standard.ActionTool.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.standard.ActionTool.mouseDown,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.ActionTool.mouseUp,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.standard.AlignCommand,3,1,3,1,,,8,8,3,1,2,10,3
+Public Constructor,CH.ifa.draw.standard.AlignCommand.AlignCommand,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.AlignCommand.execute,,,,,,,,,,,2,8,1
+File,CH.ifa.draw.standard.AlignCommand.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.standard.AlignCommand.isExecutable,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.standard.BoxHandleKit,1,1,1,1,,,1,1,1,1,0,10,10
+Public Static Method,CH.ifa.draw.standard.BoxHandleKit.addCornerHandles,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.standard.BoxHandleKit.addHandles,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.standard.BoxHandleKit.east,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.standard.BoxHandleKit.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Static Method,CH.ifa.draw.standard.BoxHandleKit.north,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.standard.BoxHandleKit.northEast,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.standard.BoxHandleKit.northWest,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.standard.BoxHandleKit.south,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.standard.BoxHandleKit.southEast,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.standard.BoxHandleKit.southWest,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.standard.BoxHandleKit.west,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.standard.BringToFrontCommand,1,1,1,1,,,2,2,2,1,1,4,3
+Public Constructor,CH.ifa.draw.standard.BringToFrontCommand.BringToFrontCommand,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.BringToFrontCommand.execute,,,,,,,,,,,1,2,1
+File,CH.ifa.draw.standard.BringToFrontCommand.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.standard.BringToFrontCommand.isExecutable,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.standard.BufferedUpdateStrategy,2,2,4,1,,,2,4,2,1,1,2,1
+Public Method,CH.ifa.draw.standard.BufferedUpdateStrategy.draw,,,,,,,,,,,1,2,1
+File,CH.ifa.draw.standard.BufferedUpdateStrategy.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Class,CH.ifa.draw.standard.ChangeAttributeCommand,1,1,1,1,,,2,2,2,1,1,4,3
+Public Constructor,CH.ifa.draw.standard.ChangeAttributeCommand.ChangeAttributeCommand,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.ChangeAttributeCommand.execute,,,,,,,,,,,1,2,1
+File,CH.ifa.draw.standard.ChangeAttributeCommand.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.standard.ChangeAttributeCommand.isExecutable,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.standard.ChangeConnectionEndHandle,1,1,1,1,,,1,1,1,1,0,6,6
+Public Constructor,CH.ifa.draw.standard.ChangeConnectionEndHandle.ChangeConnectionEndHandle,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.standard.ChangeConnectionEndHandle.connect,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.standard.ChangeConnectionEndHandle.disconnect,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.standard.ChangeConnectionEndHandle.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.standard.ChangeConnectionEndHandle.locate,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.standard.ChangeConnectionEndHandle.setPoint,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.standard.ChangeConnectionEndHandle.target,,,,,,,,,,,0,1,1
+Public Abstract Class,CH.ifa.draw.standard.ChangeConnectionHandle,2,2,2,1,,,5,6,5,4,3,20,12
+Protected Constructor,CH.ifa.draw.standard.ChangeConnectionHandle.ChangeConnectionHandle,,,,,,,,,,,0,1,1
+Protected Abstract Method,CH.ifa.draw.standard.ChangeConnectionHandle.connect,,,,,,,,,,,0,0,0
+Protected Abstract Method,CH.ifa.draw.standard.ChangeConnectionHandle.disconnect,,,,,,,,,,,0,0,0
+Public Method,CH.ifa.draw.standard.ChangeConnectionHandle.draw,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.standard.ChangeConnectionHandle.findConnectableFigure,,,,,,,,,,,3,4,4
+Private Method,CH.ifa.draw.standard.ChangeConnectionHandle.findConnectionTarget,,,,,,,,,,,1,2,1
+Protected Method,CH.ifa.draw.standard.ChangeConnectionHandle.findConnector,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.standard.ChangeConnectionHandle.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.standard.ChangeConnectionHandle.invokeEnd,,,,,,,,,,,1,3,1
+Public Method,CH.ifa.draw.standard.ChangeConnectionHandle.invokeStart,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.ChangeConnectionHandle.invokeStep,,,,,,,,,,,2,5,1
+Protected Abstract Method,CH.ifa.draw.standard.ChangeConnectionHandle.setPoint,,,,,,,,,,,0,0,0
+Protected Method,CH.ifa.draw.standard.ChangeConnectionHandle.source,,,,,,,,,,,1,2,1
+Protected Abstract Method,CH.ifa.draw.standard.ChangeConnectionHandle.target,,,,,,,,,,,0,0,0
+Public Class,CH.ifa.draw.standard.ChangeConnectionStartHandle,1,1,1,1,,,1,1,1,1,0,6,6
+Public Constructor,CH.ifa.draw.standard.ChangeConnectionStartHandle.ChangeConnectionStartHandle,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.standard.ChangeConnectionStartHandle.connect,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.standard.ChangeConnectionStartHandle.disconnect,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.standard.ChangeConnectionStartHandle.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.standard.ChangeConnectionStartHandle.locate,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.standard.ChangeConnectionStartHandle.setPoint,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.standard.ChangeConnectionStartHandle.target,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.standard.ChopBoxConnector,1,1,1,1,,,2,2,2,1,1,7,5
+Public Constructor,CH.ifa.draw.standard.ChopBoxConnector.ChopBoxConnector,,,,,,,,,,,0,1,1
+Public Constructor,CH.ifa.draw.standard.ChopBoxConnector.ChopBoxConnector,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.standard.ChopBoxConnector.chop,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.ChopBoxConnector.findEnd,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.ChopBoxConnector.findStart,,,,,,,,,,,1,2,1
+File,CH.ifa.draw.standard.ChopBoxConnector.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Abstract Class,CH.ifa.draw.standard.CompositeFigure,2,2,2,1,,,4,5,4,4,3,69,51
+Protected Constructor,CH.ifa.draw.standard.CompositeFigure.CompositeFigure,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.CompositeFigure.add,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.CompositeFigure.addAll,,,,,,,,,,,1,2,1
+Protected Method,CH.ifa.draw.standard.CompositeFigure.basicMoveBy,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.CompositeFigure.bringToFront,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.CompositeFigure.draw,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.CompositeFigure.figureAt,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.CompositeFigure.figureChanged,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.CompositeFigure.figureCount,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.CompositeFigure.figureInvalidated,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.CompositeFigure.figureRemoved,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.CompositeFigure.figureRequestRemove,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.CompositeFigure.figureRequestUpdate,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.CompositeFigure.figures,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.CompositeFigure.figuresReverse,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.CompositeFigure.findFigure,,,,,,,,,,,2,3,3
+Public Method,CH.ifa.draw.standard.CompositeFigure.findFigure,,,,,,,,,,,2,3,3
+Public Method,CH.ifa.draw.standard.CompositeFigure.findFigure,,,,,,,,,,,2,4,4
+Public Method,CH.ifa.draw.standard.CompositeFigure.findFigureInside,,,,,,,,,,,2,3,3
+Public Method,CH.ifa.draw.standard.CompositeFigure.findFigureInsideWithout,,,,,,,,,,,3,4,4
+Public Method,CH.ifa.draw.standard.CompositeFigure.findFigureWithout,,,,,,,,,,,2,4,4
+File,CH.ifa.draw.standard.CompositeFigure.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.standard.CompositeFigure.includes,,,,,,,,,,,2,4,4
+Public Method,CH.ifa.draw.standard.CompositeFigure.orphan,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.CompositeFigure.orphanAll,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.CompositeFigure.read,,,,,,,,,,,1,2,1
+Private Method,CH.ifa.draw.standard.CompositeFigure.readObject,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.CompositeFigure.release,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.CompositeFigure.remove,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.CompositeFigure.removeAll,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.CompositeFigure.removeAll,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.CompositeFigure.replace,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.CompositeFigure.sendToBack,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.CompositeFigure.write,,,,,,,,,,,1,2,1
+Public Class,CH.ifa.draw.standard.ConnectionHandle,2,2,2,1,,,5,5,5,4,3,20,13
+Public Constructor,CH.ifa.draw.standard.ConnectionHandle.ConnectionHandle,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.standard.ConnectionHandle.createConnection,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.ConnectionHandle.draw,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.standard.ConnectionHandle.findConnectableFigure,,,,,,,,,,,3,4,4
+Protected Method,CH.ifa.draw.standard.ConnectionHandle.findConnectionTarget,,,,,,,,,,,1,2,1
+Protected Method,CH.ifa.draw.standard.ConnectionHandle.findConnector,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.standard.ConnectionHandle.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.standard.ConnectionHandle.invokeEnd,,,,,,,,,,,1,3,1
+Public Method,CH.ifa.draw.standard.ConnectionHandle.invokeStart,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.ConnectionHandle.invokeStep,,,,,,,,,,,2,5,1
+Private Method,CH.ifa.draw.standard.ConnectionHandle.startConnector,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.standard.ConnectionTool,2,2,2,1,,,7,7,7,4,3,43,23
+Public Constructor,CH.ifa.draw.standard.ConnectionTool.ConnectionTool,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.standard.ConnectionTool.createConnection,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.standard.ConnectionTool.createdFigure,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.ConnectionTool.deactivate,,,,,,,,,,,1,2,1
+Private Method,CH.ifa.draw.standard.ConnectionTool.findConnectableFigure,,,,,,,,,,,3,4,4
+Protected Method,CH.ifa.draw.standard.ConnectionTool.findConnection,,,,,,,,,,,2,3,3
+Protected Method,CH.ifa.draw.standard.ConnectionTool.findConnectionStart,,,,,,,,,,,1,2,1
+Private Method,CH.ifa.draw.standard.ConnectionTool.findConnector,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.standard.ConnectionTool.findSource,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.standard.ConnectionTool.findTarget,,,,,,,,,,,1,2,1
+Protected Method,CH.ifa.draw.standard.ConnectionTool.getEndConnector,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.standard.ConnectionTool.getStartConnector,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.standard.ConnectionTool.getTarget,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.standard.ConnectionTool.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.standard.ConnectionTool.mouseDown,,,,,,,,,,,3,5,1
+Public Method,CH.ifa.draw.standard.ConnectionTool.mouseDrag,,,,,,,,,,,2,4,1
+Public Method,CH.ifa.draw.standard.ConnectionTool.mouseMove,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.ConnectionTool.mouseUp,,,,,,,,,,,2,5,1
+Protected Method,CH.ifa.draw.standard.ConnectionTool.trackConnectors,,,,,,,,,,,2,7,1
+Public Class,CH.ifa.draw.standard.CopyCommand,1,1,1,1,,,1,1,1,1,0,3,3
+Public Constructor,CH.ifa.draw.standard.CopyCommand.CopyCommand,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.CopyCommand.execute,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.standard.CopyCommand.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.standard.CopyCommand.isExecutable,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.standard.CreationTool,1,1,1,1,,,2,2,2,1,1,10,8
+Public Constructor,CH.ifa.draw.standard.CreationTool.CreationTool,,,,,,,,,,,0,1,1
+Protected Constructor,CH.ifa.draw.standard.CreationTool.CreationTool,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.CreationTool.activate,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.standard.CreationTool.createFigure,,,,,,,,,,,1,2,1
+Protected Method,CH.ifa.draw.standard.CreationTool.createdFigure,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.standard.CreationTool.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.standard.CreationTool.mouseDown,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.CreationTool.mouseDrag,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.CreationTool.mouseUp,,,,,,,,,,,1,2,1
+Public Class,CH.ifa.draw.standard.CutCommand,1,1,1,1,,,1,1,1,1,0,3,3
+Public Constructor,CH.ifa.draw.standard.CutCommand.CutCommand,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.CutCommand.execute,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.standard.CutCommand.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.standard.CutCommand.isExecutable,,,,,,,,,,,0,1,1
+Public Abstract Class,CH.ifa.draw.standard.DecoratorFigure,1,1,1,1,,,2,2,2,1,1,34,31
+Public Constructor,CH.ifa.draw.standard.DecoratorFigure.DecoratorFigure,,,,,,,,,,,0,1,1
+Public Constructor,CH.ifa.draw.standard.DecoratorFigure.DecoratorFigure,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.DecoratorFigure.basicDisplayBox,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.standard.DecoratorFigure.basicMoveBy,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.DecoratorFigure.canConnect,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.DecoratorFigure.connectedTextLocator,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.DecoratorFigure.connectionInsets,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.DecoratorFigure.connectorAt,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.DecoratorFigure.connectorVisibility,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.DecoratorFigure.containsPoint,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.DecoratorFigure.decompose,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.DecoratorFigure.decorate,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.DecoratorFigure.displayBox,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.DecoratorFigure.draw,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.DecoratorFigure.figureChanged,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.DecoratorFigure.figureInvalidated,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.DecoratorFigure.figureRemoved,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.DecoratorFigure.figureRequestRemove,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.DecoratorFigure.figureRequestUpdate,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.DecoratorFigure.figures,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.DecoratorFigure.findFigureInside,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.DecoratorFigure.getAttribute,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.DecoratorFigure.handles,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.standard.DecoratorFigure.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.standard.DecoratorFigure.includes,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.DecoratorFigure.moveBy,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.DecoratorFigure.peelDecoration,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.DecoratorFigure.read,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.standard.DecoratorFigure.readObject,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.DecoratorFigure.release,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.DecoratorFigure.setAttribute,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.DecoratorFigure.write,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.standard.DeleteCommand,1,1,1,1,,,1,1,1,1,0,3,3
+Public Constructor,CH.ifa.draw.standard.DeleteCommand.DeleteCommand,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.DeleteCommand.execute,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.standard.DeleteCommand.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.standard.DeleteCommand.isExecutable,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.standard.DragTracker,2,2,2,1,,,3,4,3,1,2,7,3
+Public Constructor,CH.ifa.draw.standard.DragTracker.DragTracker,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.standard.DragTracker.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.standard.DragTracker.mouseDown,,,,,,,,,,,1,3,1
+Public Method,CH.ifa.draw.standard.DragTracker.mouseDrag,,,,,,,,,,,2,3,1
+Public Class,CH.ifa.draw.standard.DuplicateCommand,1,1,1,1,,,1,1,1,1,0,3,3
+Public Constructor,CH.ifa.draw.standard.DuplicateCommand.DuplicateCommand,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.DuplicateCommand.execute,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.standard.DuplicateCommand.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.standard.DuplicateCommand.isExecutable,,,,,,,,,,,0,1,1
+Class,CH.ifa.draw.standard.EastHandle,1,1,1,1,,,1,1,1,1,0,2,2
+Constructor,CH.ifa.draw.standard.EastHandle.EastHandle,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.EastHandle.invokeStep,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.standard.FigureChangeEventMulticaster,1,1,1,1,,,4,5,4,4,1,18,18
+Public Constructor,CH.ifa.draw.standard.FigureChangeEventMulticaster.FigureChangeEventMulticaster,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.standard.FigureChangeEventMulticaster.add,,,,,,,,,,,0,1,1
+Protected Static Method,CH.ifa.draw.standard.FigureChangeEventMulticaster.addInternal,,,,,,,,,,,1,3,3
+Public Method,CH.ifa.draw.standard.FigureChangeEventMulticaster.figureChanged,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.FigureChangeEventMulticaster.figureInvalidated,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.FigureChangeEventMulticaster.figureRemoved,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.FigureChangeEventMulticaster.figureRequestRemove,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.FigureChangeEventMulticaster.figureRequestUpdate,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.standard.FigureChangeEventMulticaster.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Static Method,CH.ifa.draw.standard.FigureChangeEventMulticaster.remove,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.standard.FigureChangeEventMulticaster.remove,,,,,,,,,,,1,4,4
+Protected Static Method,CH.ifa.draw.standard.FigureChangeEventMulticaster.removeInternal,,,,,,,,,,,1,3,3
+Public Class,CH.ifa.draw.standard.FigureEnumerator,1,1,1,1,,,1,1,1,1,0,4,4
+Public Constructor,CH.ifa.draw.standard.FigureEnumerator.FigureEnumerator,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.FigureEnumerator.hasMoreElements,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.standard.FigureEnumerator.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.standard.FigureEnumerator.nextElement,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.FigureEnumerator.nextFigure,,,,,,,,,,,0,1,1
+Abstract Class,CH.ifa.draw.standard.FigureTransferCommand,1,1,1,1,,,2,2,2,1,1,5,4
+Protected Constructor,CH.ifa.draw.standard.FigureTransferCommand.FigureTransferCommand,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.standard.FigureTransferCommand.copySelection,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.standard.FigureTransferCommand.deleteSelection,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.standard.FigureTransferCommand.insertFigures,,,,,,,,,,,1,2,1
+Public Class,CH.ifa.draw.standard.GridConstrainer,1,1,1,1,,,1,1,1,1,0,4,4
+Public Constructor,CH.ifa.draw.standard.GridConstrainer.GridConstrainer,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.GridConstrainer.constrainPoint,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.GridConstrainer.getStepX,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.GridConstrainer.getStepY,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.standard.GridConstrainer.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Class,CH.ifa.draw.standard.HandleTracker,1,1,1,1,,,1,1,1,1,0,4,4
+Public Constructor,CH.ifa.draw.standard.HandleTracker.HandleTracker,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.standard.HandleTracker.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.standard.HandleTracker.mouseDown,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.HandleTracker.mouseDrag,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.HandleTracker.mouseUp,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.standard.LocatorConnector,1,1,1,1,,,1,1,1,1,0,8,8
+Public Constructor,CH.ifa.draw.standard.LocatorConnector.LocatorConnector,,,,,,,,,,,0,1,1
+Public Constructor,CH.ifa.draw.standard.LocatorConnector.LocatorConnector,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.LocatorConnector.containsPoint,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.LocatorConnector.displayBox,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.LocatorConnector.draw,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.standard.LocatorConnector.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Protected Method,CH.ifa.draw.standard.LocatorConnector.locate,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.LocatorConnector.read,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.LocatorConnector.write,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.standard.LocatorHandle,1,1,1,1,,,1,1,1,1,0,2,2
+Public Constructor,CH.ifa.draw.standard.LocatorHandle.LocatorHandle,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.standard.LocatorHandle.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.standard.LocatorHandle.locate,,,,,,,,,,,0,1,1
+Class,CH.ifa.draw.standard.NorthEastHandle,1,1,1,1,,,1,1,1,1,0,2,2
+Constructor,CH.ifa.draw.standard.NorthEastHandle.NorthEastHandle,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.NorthEastHandle.invokeStep,,,,,,,,,,,0,1,1
+Class,CH.ifa.draw.standard.NorthHandle,1,1,1,1,,,1,1,1,1,0,2,2
+Constructor,CH.ifa.draw.standard.NorthHandle.NorthHandle,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.NorthHandle.invokeStep,,,,,,,,,,,0,1,1
+Class,CH.ifa.draw.standard.NorthWestHandle,1,1,1,1,,,1,1,1,1,0,2,2
+Constructor,CH.ifa.draw.standard.NorthWestHandle.NorthWestHandle,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.NorthWestHandle.invokeStep,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.standard.NullHandle,1,1,1,1,,,1,1,1,1,0,2,2
+Public Constructor,CH.ifa.draw.standard.NullHandle.NullHandle,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.NullHandle.draw,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.standard.NullHandle.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Class,CH.ifa.draw.standard.OffsetLocator,1,1,1,1,,,1,1,1,1,0,7,7
+Public Constructor,CH.ifa.draw.standard.OffsetLocator.OffsetLocator,,,,,,,,,,,0,1,1
+Public Constructor,CH.ifa.draw.standard.OffsetLocator.OffsetLocator,,,,,,,,,,,0,1,1
+Public Constructor,CH.ifa.draw.standard.OffsetLocator.OffsetLocator,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.standard.OffsetLocator.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.standard.OffsetLocator.locate,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.OffsetLocator.moveBy,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.OffsetLocator.read,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.OffsetLocator.write,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.standard.PasteCommand,2,2,2,1,,,3,3,3,3,2,6,5
+Public Constructor,CH.ifa.draw.standard.PasteCommand.PasteCommand,,,,,,,,,,,0,1,1
+Method,CH.ifa.draw.standard.PasteCommand.bounds,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.PasteCommand.execute,,,,,,,,,,,2,3,3
+File,CH.ifa.draw.standard.PasteCommand.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Class,CH.ifa.draw.standard.RelativeLocator,1,1,1,1,,,1,1,1,1,0,14,14
+Public Constructor,CH.ifa.draw.standard.RelativeLocator.RelativeLocator,,,,,,,,,,,0,1,1
+Public Constructor,CH.ifa.draw.standard.RelativeLocator.RelativeLocator,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.standard.RelativeLocator.center,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.standard.RelativeLocator.east,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.standard.RelativeLocator.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.standard.RelativeLocator.locate,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.standard.RelativeLocator.north,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.standard.RelativeLocator.northEast,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.standard.RelativeLocator.northWest,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.RelativeLocator.read,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.standard.RelativeLocator.south,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.standard.RelativeLocator.southEast,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.standard.RelativeLocator.southWest,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.standard.RelativeLocator.west,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.RelativeLocator.write,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.standard.ReverseFigureEnumerator,1,1,1,1,,,1,1,1,1,0,4,4
+Public Constructor,CH.ifa.draw.standard.ReverseFigureEnumerator.ReverseFigureEnumerator,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.ReverseFigureEnumerator.hasMoreElements,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.standard.ReverseFigureEnumerator.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.standard.ReverseFigureEnumerator.nextElement,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.ReverseFigureEnumerator.nextFigure,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.standard.SelectAreaTracker,1,1,1,1,,,4,5,4,1,3,11,8
+Public Constructor,CH.ifa.draw.standard.SelectAreaTracker.SelectAreaTracker,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.standard.SelectAreaTracker.drawXORRect,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.standard.SelectAreaTracker.eraseRubberBand,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.standard.SelectAreaTracker.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.standard.SelectAreaTracker.mouseDown,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.SelectAreaTracker.mouseDrag,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.SelectAreaTracker.mouseUp,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.standard.SelectAreaTracker.rubberBand,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.standard.SelectAreaTracker.selectGroup,,,,,,,,,,,3,4,1
+Public Class,CH.ifa.draw.standard.SelectionTool,1,1,1,1,,,5,5,5,1,3,13,7
+Public Constructor,CH.ifa.draw.standard.SelectionTool.SelectionTool,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.standard.SelectionTool.createAreaTracker,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.standard.SelectionTool.createDragTracker,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.standard.SelectionTool.createHandleTracker,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.standard.SelectionTool.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.standard.SelectionTool.mouseDown,,,,,,,,,,,3,5,1
+Public Method,CH.ifa.draw.standard.SelectionTool.mouseDrag,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.SelectionTool.mouseUp,,,,,,,,,,,1,2,1
+Public Class,CH.ifa.draw.standard.SendToBackCommand,1,1,1,1,,,2,2,2,1,1,4,3
+Public Constructor,CH.ifa.draw.standard.SendToBackCommand.SendToBackCommand,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.SendToBackCommand.execute,,,,,,,,,,,1,2,1
+File,CH.ifa.draw.standard.SendToBackCommand.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.standard.SendToBackCommand.isExecutable,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.standard.SimpleUpdateStrategy,1,1,1,1,,,1,1,1,1,0,1,1
+Public Method,CH.ifa.draw.standard.SimpleUpdateStrategy.draw,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.standard.SimpleUpdateStrategy.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Class,CH.ifa.draw.standard.SouthEastHandle,1,1,1,1,,,1,1,1,1,0,2,2
+Constructor,CH.ifa.draw.standard.SouthEastHandle.SouthEastHandle,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.SouthEastHandle.invokeStep,,,,,,,,,,,0,1,1
+Class,CH.ifa.draw.standard.SouthHandle,1,1,1,1,,,1,1,1,1,0,2,2
+Constructor,CH.ifa.draw.standard.SouthHandle.SouthHandle,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.SouthHandle.invokeStep,,,,,,,,,,,0,1,1
+Class,CH.ifa.draw.standard.SouthWestHandle,1,1,1,1,,,1,1,1,1,0,2,2
+Constructor,CH.ifa.draw.standard.SouthWestHandle.SouthWestHandle,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.SouthWestHandle.invokeStep,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.standard.StandardDrawing,1,1,1,1,,,4,4,4,1,2,26,14
+Public Constructor,CH.ifa.draw.standard.StandardDrawing.StandardDrawing,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.StandardDrawing.addDrawingChangeListener,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.StandardDrawing.basicDisplayBox,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.StandardDrawing.displayBox,,,,,,,,,,,2,3,1
+Public Method,CH.ifa.draw.standard.StandardDrawing.drawingChangeListeners,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.StandardDrawing.figureInvalidated,,,,,,,,,,,2,3,1
+Public Method,CH.ifa.draw.standard.StandardDrawing.figureRequestRemove,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.StandardDrawing.figureRequestUpdate,,,,,,,,,,,2,3,1
+Public Method,CH.ifa.draw.standard.StandardDrawing.handles,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.standard.StandardDrawing.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.standard.StandardDrawing.lock,,,,,,,,,,,2,4,1
+Private Method,CH.ifa.draw.standard.StandardDrawing.readObject,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.StandardDrawing.remove,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.StandardDrawing.removeDrawingChangeListener,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.StandardDrawing.unlock,,,,,,,,,,,1,2,1
+Public Class,CH.ifa.draw.standard.StandardDrawingView,1,1,1,1,,,6,7,4,3,3,101,63
+Public Constructor,CH.ifa.draw.standard.StandardDrawingView.StandardDrawingView,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.add,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.addAll,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.addBackground,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.addForeground,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.addToSelection,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.addToSelectionAll,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.checkDamage,,,,,,,,,,,2,3,1
+Private Method,CH.ifa.draw.standard.StandardDrawingView.checkMinimumSize,,,,,,,,,,,1,3,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.clearSelection,,,,,,,,,,,1,2,1
+Protected Method,CH.ifa.draw.standard.StandardDrawingView.constrainPoint,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.drawAll,,,,,,,,,,,1,4,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.drawBackground,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.drawDrawing,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.drawHandles,,,,,,,,,,,1,2,1
+Private Method,CH.ifa.draw.standard.StandardDrawingView.drawPainters,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.drawing,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.drawingInvalidated,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.drawingRequestUpdate,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.editor,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.findHandle,,,,,,,,,,,2,3,3
+Public Method,CH.ifa.draw.standard.StandardDrawingView.freezeView,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.getConstrainer,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.getFigureSelection,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.getMinimumSize,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.getPreferredSize,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.standard.StandardDrawingView.handleCursorKey,,,,,,,,,,,1,6,1
+File,CH.ifa.draw.standard.StandardDrawingView.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.standard.StandardDrawingView.isFocusTraversable,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.keyPressed,,,,,,,,,,,1,3,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.keyReleased,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.keyTyped,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.lastClick,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.mouseClicked,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.mouseDragged,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.mouseEntered,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.mouseExited,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.mouseMoved,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.mousePressed,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.mouseReleased,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.standard.StandardDrawingView.moveSelection,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.paint,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.standard.StandardDrawingView.readObject,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.remove,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.removeBackground,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.removeForeground,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.removeFromSelection,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.repairDamage,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.selection,,,,,,,,,,,0,1,1
+Protected Method,CH.ifa.draw.standard.StandardDrawingView.selectionChanged,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.selectionCount,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.selectionElements,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.standard.StandardDrawingView.selectionHandles,,,,,,,,,,,3,4,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.selectionZOrdered,,,,,,,,,,,2,3,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.setConstrainer,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.setDisplayUpdate,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.setDrawing,,,,,,,,,,,1,3,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.setEditor,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.toggleSelection,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.tool,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.unfreezeView,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.StandardDrawingView.update,,,,,,,,,,,0,1,1
+Public Interface,CH.ifa.draw.standard.TextHolder,0,0,0,0,,,0,0,0,0,0,0,0
+Public Abstract Method,CH.ifa.draw.standard.TextHolder.acceptsTyping,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.standard.TextHolder.connect,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.standard.TextHolder.getFont,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.standard.TextHolder.getText,,,,,,,,,,,0,0,0
+File,CH.ifa.draw.standard.TextHolder.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Abstract Method,CH.ifa.draw.standard.TextHolder.overlayColumns,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.standard.TextHolder.setText,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.standard.TextHolder.textDisplayBox,,,,,,,,,,,0,0,0
+Public Class,CH.ifa.draw.standard.ToggleGridCommand,1,1,1,1,,,2,2,2,1,1,3,2
+Public Constructor,CH.ifa.draw.standard.ToggleGridCommand.ToggleGridCommand,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.ToggleGridCommand.execute,,,,,,,,,,,1,2,1
+File,CH.ifa.draw.standard.ToggleGridCommand.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Class,CH.ifa.draw.standard.ToolButton,1,1,1,1,,,4,4,4,1,1,16,10
+Public Constructor,CH.ifa.draw.standard.ToolButton.ToolButton,,,,,,,,,,,1,4,1
+Public Method,CH.ifa.draw.standard.ToolButton.attributeValue,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.ToolButton.getMinimumSize,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.ToolButton.getPreferredSize,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.standard.ToolButton.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.standard.ToolButton.name,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.ToolButton.paintBackground,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.ToolButton.paintNormal,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.ToolButton.paintPressed,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.ToolButton.paintSelected,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.standard.ToolButton.tool,,,,,,,,,,,0,1,1
+Class,CH.ifa.draw.standard.WestHandle,1,1,1,1,,,1,1,1,1,0,2,2
+Constructor,CH.ifa.draw.standard.WestHandle.WestHandle,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.standard.WestHandle.invokeStep,,,,,,,,,,,0,1,1
+Package,CH.ifa.draw.util,1,1,1,1,20,,6,13,6,5,4,202,148
+Public Interface,CH.ifa.draw.util.Animatable,0,0,0,0,,,0,0,0,0,0,0,0
+Abstract Method,CH.ifa.draw.util.Animatable.animationStep,,,,,,,,,,,0,0,0
+File,CH.ifa.draw.util.Animatable.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Class,CH.ifa.draw.util.Clipboard,1,1,1,1,,,1,1,1,1,0,4,4
+Private Constructor,CH.ifa.draw.util.Clipboard.Clipboard,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.util.Clipboard.getClipboard,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.util.Clipboard.getContents,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.util.Clipboard.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.util.Clipboard.setContents,,,,,,,,,,,0,1,1
+Class,CH.ifa.draw.util.ColorEntry,1,1,1,1,,,1,1,1,1,0,1,1
+Constructor,CH.ifa.draw.util.ColorEntry.ColorEntry,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.util.ColorMap,2,2,2,1,,,3,3,3,3,2,12,10
+Public Static Method,CH.ifa.draw.util.ColorMap.color,,,,,,,,,,,1,2,1
+Public Static Method,CH.ifa.draw.util.ColorMap.color,,,,,,,,,,,2,3,3
+Public Static Method,CH.ifa.draw.util.ColorMap.colorIndex,,,,,,,,,,,2,3,3
+File,CH.ifa.draw.util.ColorMap.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Static Method,CH.ifa.draw.util.ColorMap.isTransparent,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.util.ColorMap.name,,,,,,,,,,,1,2,1
+Public Static Method,CH.ifa.draw.util.ColorMap.size,,,,,,,,,,,0,1,1
+Public Abstract Class,CH.ifa.draw.util.Command,1,1,1,1,,,1,1,1,1,0,3,3
+Public Constructor,CH.ifa.draw.util.Command.Command,,,,,,,,,,,0,1,1
+Public Abstract Method,CH.ifa.draw.util.Command.execute,,,,,,,,,,,0,0,0
+File,CH.ifa.draw.util.Command.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.util.Command.isExecutable,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.util.Command.name,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.util.CommandButton,1,1,1,1,,,2,2,2,1,1,3,2
+Public Constructor,CH.ifa.draw.util.CommandButton.CommandButton,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.util.CommandButton.actionPerformed,,,,,,,,,,,1,2,1
+File,CH.ifa.draw.util.CommandButton.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Class,CH.ifa.draw.util.CommandChoice,1,1,1,1,,,1,1,1,1,0,3,3
+Public Constructor,CH.ifa.draw.util.CommandChoice.CommandChoice,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.util.CommandChoice.addItem,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.util.CommandChoice.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.util.CommandChoice.itemStateChanged,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.util.CommandMenu,1,1,1,1,,,4,4,4,4,2,15,15
+Public Constructor,CH.ifa.draw.util.CommandMenu.CommandMenu,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.util.CommandMenu.actionPerformed,,,,,,,,,,,2,4,4
+Public Method,CH.ifa.draw.util.CommandMenu.add,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.util.CommandMenu.add,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.util.CommandMenu.checkEnabled,,,,,,,,,,,2,3,3
+Public Method,CH.ifa.draw.util.CommandMenu.enable,,,,,,,,,,,2,3,3
+File,CH.ifa.draw.util.CommandMenu.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.util.CommandMenu.remove,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.util.CommandMenu.remove,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.util.Filler,1,1,1,1,,,2,2,2,1,1,6,5
+Public Constructor,CH.ifa.draw.util.Filler.Filler,,,,,,,,,,,0,1,1
+Public Constructor,CH.ifa.draw.util.Filler.Filler,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.util.Filler.getBackground,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.util.Filler.getMinimumSize,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.util.Filler.getPreferredSize,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.util.Filler.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Class,CH.ifa.draw.util.FloatingTextField,1,1,1,1,,,2,2,2,1,1,11,9
+Public Constructor,CH.ifa.draw.util.FloatingTextField.FloatingTextField,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.util.FloatingTextField.addActionListener,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.util.FloatingTextField.createOverlay,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.util.FloatingTextField.createOverlay,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.util.FloatingTextField.endOverlay,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.util.FloatingTextField.getPreferredSize,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.util.FloatingTextField.getText,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.util.FloatingTextField.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.util.FloatingTextField.removeActionListener,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.util.FloatingTextField.setBounds,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.util.Geom,2,2,2,1,,,5,13,5,5,3,32,23
+Private Constructor,CH.ifa.draw.util.Geom.Geom,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.util.Geom.angleToPoint,,,,,,,,,,,1,5,1
+Public Static Method,CH.ifa.draw.util.Geom.center,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.util.Geom.direction,,,,,,,,,,,1,4,1
+Public Static Method,CH.ifa.draw.util.Geom.east,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.util.Geom.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Static Method,CH.ifa.draw.util.Geom.intersect,,,,,,,,,,,3,5,5
+Public Static Method,CH.ifa.draw.util.Geom.length,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.util.Geom.length2,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.util.Geom.lineContainsPoint,,,,,,,,,,,1,4,4
+Public Static Method,CH.ifa.draw.util.Geom.north,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.util.Geom.ovalAngleToPoint,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.util.Geom.pointToAngle,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.util.Geom.polarToPoint,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.util.Geom.range,,,,,,,,,,,1,3,1
+Public Static Method,CH.ifa.draw.util.Geom.south,,,,,,,,,,,0,1,1
+Public Static Method,CH.ifa.draw.util.Geom.west,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.util.Iconkit,2,2,2,1,,,5,5,5,1,2,19,9
+Public Constructor,CH.ifa.draw.util.Iconkit.Iconkit,,,,,,,,,,,0,1,1
+Private Method,CH.ifa.draw.util.Iconkit.basicGetImage,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.util.Iconkit.getImage,,,,,,,,,,,1,2,1
+File,CH.ifa.draw.util.Iconkit.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Static Method,CH.ifa.draw.util.Iconkit.instance,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.util.Iconkit.loadImage,,,,,,,,,,,1,3,1
+Public Method,CH.ifa.draw.util.Iconkit.loadImageResource,,,,,,,,,,,2,3,1
+Public Method,CH.ifa.draw.util.Iconkit.loadRegisteredImages,,,,,,,,,,,2,5,1
+Public Method,CH.ifa.draw.util.Iconkit.registerAndLoadImage,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.util.Iconkit.registerImage,,,,,,,,,,,0,1,1
+Public Abstract Class,CH.ifa.draw.util.PaletteButton,1,1,1,1,,,4,4,2,1,1,20,14
+Public Constructor,CH.ifa.draw.util.PaletteButton.PaletteButton,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.util.PaletteButton.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.util.PaletteButton.mouseClicked,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.util.PaletteButton.mouseDragged,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.util.PaletteButton.mouseEntered,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.util.PaletteButton.mouseExited,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.util.PaletteButton.mouseMoved,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.util.PaletteButton.mousePressed,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.util.PaletteButton.mouseReleased,,,,,,,,,,,1,2,1
+Public Method,CH.ifa.draw.util.PaletteButton.name,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.util.PaletteButton.paint,,,,,,,,,,,1,4,1
+Public Abstract Method,CH.ifa.draw.util.PaletteButton.paintBackground,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.util.PaletteButton.paintNormal,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.util.PaletteButton.paintPressed,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.util.PaletteButton.paintSelected,,,,,,,,,,,0,0,0
+Public Method,CH.ifa.draw.util.PaletteButton.reset,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.util.PaletteButton.select,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.util.PaletteButton.update,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.util.PaletteButton.value,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.util.PaletteIcon,1,1,1,1,,,1,1,1,1,0,6,6
+Public Constructor,CH.ifa.draw.util.PaletteIcon.PaletteIcon,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.util.PaletteIcon.getHeight,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.util.PaletteIcon.getWidth,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.util.PaletteIcon.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.util.PaletteIcon.normal,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.util.PaletteIcon.pressed,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.util.PaletteIcon.selected,,,,,,,,,,,0,1,1
+Public Class,CH.ifa.draw.util.PaletteLayout,2,2,2,1,,,6,6,6,1,4,16,8
+Public Constructor,CH.ifa.draw.util.PaletteLayout.PaletteLayout,,,,,,,,,,,0,1,1
+Public Constructor,CH.ifa.draw.util.PaletteLayout.PaletteLayout,,,,,,,,,,,0,1,1
+Public Constructor,CH.ifa.draw.util.PaletteLayout.PaletteLayout,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.util.PaletteLayout.addLayoutComponent,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.util.PaletteLayout.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.util.PaletteLayout.layoutContainer,,,,,,,,,,,3,4,1
+Public Method,CH.ifa.draw.util.PaletteLayout.minimumLayoutSize,,,,,,,,,,,4,6,1
+Public Method,CH.ifa.draw.util.PaletteLayout.preferredLayoutSize,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.util.PaletteLayout.removeLayoutComponent,,,,,,,,,,,0,1,1
+Public Interface,CH.ifa.draw.util.PaletteListener,0,0,0,0,,,0,0,0,0,0,0,0
+File,CH.ifa.draw.util.PaletteListener.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Abstract Method,CH.ifa.draw.util.PaletteListener.paletteUserOver,,,,,,,,,,,0,0,0
+Abstract Method,CH.ifa.draw.util.PaletteListener.paletteUserSelected,,,,,,,,,,,0,0,0
+Public Class,CH.ifa.draw.util.ReverseVectorEnumerator,1,1,1,1,,,2,2,2,1,1,4,3
+Public Constructor,CH.ifa.draw.util.ReverseVectorEnumerator.ReverseVectorEnumerator,,,,,,,,,,,0,1,1
+Public Method,CH.ifa.draw.util.ReverseVectorEnumerator.hasMoreElements,,,,,,,,,,,0,1,1
+File,CH.ifa.draw.util.ReverseVectorEnumerator.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Method,CH.ifa.draw.util.ReverseVectorEnumerator.nextElement,,,,,,,,,,,1,2,1
+Public Interface,CH.ifa.draw.util.Storable,0,0,0,0,,,0,0,0,0,0,0,0
+File,CH.ifa.draw.util.Storable.html,0,0,0,0,0,0,0,,0,0,0,0,0
+Public Abstract Method,CH.ifa.draw.util.Storable.read,,,,,,,,,,,0,0,0
+Public Abstract Method,CH.ifa.draw.util.Storable.write,,,,,,,,,,,0,0,0
+Public Class,CH.ifa.draw.util.StorableInput,2,2,2,1,,,5,5,5,5,1,21,16
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+Public Class,CH.ifa.draw.util.StorableOutput,1,1,1,1,,,6,6,3,3,2,26,17

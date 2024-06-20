@@ -1,0 +1,8 @@
+cn\meteor\beyondclouds\BeyondCloudsApplicationTests.class
+cn\meteor\beyondclouds\modules\mail\service\IMailServiceTest.class
+cn\meteor\beyondclouds\common\helper\IRedisHelperTest.class
+cn\meteor\beyondclouds\modules\tag\service\impl\TagServiceQueueServiceImplTest.class
+cn\meteor\beyondclouds\modules\search\repository\ISearchRepositoryTest.class
+cn\meteor\beyondclouds\modules\topic\service\impl\TopicServiceQueueServiceImplTest.class
+cn\meteor\beyondclouds\modules\queue\service\impl\MessageQueueServiceImplTest.class
+cn\meteor\beyondclouds\modules\search\service\impl\SearchServiceImplTest.class

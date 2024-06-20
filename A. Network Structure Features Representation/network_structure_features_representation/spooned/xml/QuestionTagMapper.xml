@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.meteor.beyondclouds.modules.question.mapper.QuestionTagMapper">
+    <select id="relevantQuestionIdPage" resultType="String">
+        select
+        DISTINCT(question_id)
+        from (
+        select
+        *
+        from question_tag
+        where tag_id in
+        <foreach collection="tagIds" item="tagId" index="index" open="(" close=")" separator=",">
+            #{tagId}
+        </foreach>
+        order by create_time desc
+        ) t
+    </select>
+</mapper>

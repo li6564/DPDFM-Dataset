@@ -1,0 +1,9 @@
+
+r
+java:S1488s"\Immediately return this expression instead of assigning it to the temporary variable "flag".(ñÍÅ
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(ºó©¬
+h
+java:S37763"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(ğ«áì
+E
+java:S5411T"*Use the primitive boolean expression here.(´Ñë§şÿÿÿÿ
